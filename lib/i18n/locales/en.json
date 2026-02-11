@@ -1,0 +1,1190 @@
+{
+  "common": {
+    "title": "Clear Sight",
+    "description": "Govern. Enforce. Prove.",
+    "language": "Language",
+    "english": "English",
+    "vietnamese": "Vietnamese",
+    "thai": "Thai",
+    "verifiedData": "Verified Data",
+    "clearSightDisclaimer": "ClearSight provides factual analysis only and does not make credit decisions",
+    "close": "Close",
+    "retry": "Retry",
+    "filters": "Filters",
+    "day": "day",
+    "days": "days",
+    "addNote": "Add Note"
+  },
+  "sidebar": {
+    "analysis": "Analysis: Credit Signals",
+    "reviewExtraction": "Review Extraction",
+    "userManagement": "User Management",
+    "auditLogs": "Audit Logs",
+    "settings": "Settings",
+    "institution": "Institution",
+    "SSOConfiguration": "SSO Configuration",
+    "documentRetention": "Document Retention",
+    "retentionPolicy": "Retention Policy",
+    "decisionReview": "Decision Review"
+  },
+  "documentType": {
+    "title": "Document Type",
+    "placeholder": "Select a document type",
+    "all": "All",
+    "financialStatement": "Financial Statement",
+    "bankStatement": "Bank Statement",
+    "fraudAndAnomaly": "Fraud & Anomaly",
+    "financialAnalysis": "Financial Analysis"
+  },
+  "documentStatus": {
+    "all": "All",
+    "pending": "Awaiting Confirmation",
+    "processing": "Extracting data...",
+    "review": "Ready for Review",
+    "completed": "Completed",
+    "approved": "Verified",
+    "failed": "Failed",
+    "unknown": "Unknown"
+  },
+  "title": {
+    "selectRole": "Select a role",
+    "addUser": "Add User",
+    "addNewUser": "Add New User",
+    "editUser": "Edit User",
+    "deleteUser": "Delete User",
+    "deleteUserConfirmation": "Are you sure you want to delete {{userName}}? This action cannot be undone.",
+    "deleteUserDescription": "Are you sure you want to delete '{{email}}'? This action cannot be undone.",
+    "selectStatus": "Select Status",
+    "resetPassword": "Reset password:",
+    "sendResetLinkViaEmail": "Send reset link via email",
+    "createTemporaryPassword": "Create a temporary password",
+    "temporaryPassword": "Temporary password",
+    "passwordNote": "Note: Password is only displayed once. After closing the window, it cannot be viewed again.",
+    "search": "Search",
+    "date": "Date",
+    "user": "User",
+    "role": "Role",
+    "status": "Status",
+    "createdAt": "Created At",
+    "createdDate": "Created Date",
+    "userName": "User Name",
+    "phoneNumber": "Phone Number",
+    "email": "Email",
+    "actions": "Actions",
+    "lastUpdated": "Last Updated",
+    "fy": "FY",
+    "category": "Category",
+    "label": {
+      "userName": "User name",
+      "phoneNumber": "Phone number",
+      "createdDate": "Created date"
+    },
+    "validation": {
+      "userNameRequired": "User name is required",
+      "userNameMaxLength": "User name must not exceed 255 characters",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Invalid phone number format. Please enter a valid phone number (8-15 digits)",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email format",
+      "roleRequired": "Role is required"
+    }
+  },
+  "heading": {
+    "userManagement": "User Management",
+    "userList": "User list",
+    "userManagementSubTitle": "Manage your users and their roles"
+  },
+  "header": {
+    "menu": "Menu",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Login",
+    "loggingIn": "Logging in...",
+    "loginFailed": "Login failed. Please try again.",
+    "pleaseEnterAllInformation": "Please enter all information",
+    "loginSuccessful": "Login successful!",
+    "errorEmailRequired": "Please enter your email address.",
+    "errorEmailFormat": "Email format is invalid. Please remove spaces.",
+    "errorEmailFormatInvalid": "Invalid email format. Please enter a valid email address.",
+    "errorPasswordRequired": "Please enter your password.",
+    "errorPasswordMinLength": "Password must be at least 8 characters long.",
+    "errorPasswordOnlySpaces": "Password cannot contain only spaces.",
+    "errorPasswordNoSpaces": "Password cannot contain only spaces.",
+    "loginAccountInactive": "Your account is inactive. Please contact administrator.",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "loginIncorrectCredentials": "Incorrect email or password. Please try again.",
+    "processingSSO": "Processing SSO authentication...",
+    "pleaseWait": "Please wait",
+    "redirectingToLogin": "Redirecting to login page...",
+    "loginSsoEnabled": "SSO is enabled for this institution. Please use SSO login."
+  },
+  "forgotPassword": {
+    "userAccountInactive": "Your account is inactive. Please contact administrator.",
+    "userNotFound": "Account not found. Please check your credentials.",
+    "title": "Reset Password",
+    "description": "Enter your email, we will send reset link to your email",
+    "email": "Email",
+    "sendLink": "Send Link",
+    "sending": "Sending...",
+    "success": "Reset link has been sent to your email. Please check your inbox.",
+    "error": "Failed to send reset link. Please try again.",
+    "errorEmailRequired": "Please enter your email address.",
+    "errorEmailFormat": "Email format is invalid. Please remove spaces.",
+    "errorEmailFormatInvalid": "Invalid email format. Please enter a valid email address.",
+    "backToLogin": "Back to Login"
+  },
+  "resetPassword": {
+    "title": "Create New Password",
+    "description": "Your password must be different from previous used password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm new password",
+    "resetButton": "Reset Password",
+    "resetting": "Resetting...",
+    "success": "Password has been reset successfully. Redirecting to login",
+    "successTitle": "Password Update Successfully",
+    "successDescription": "Password changed successfully, you can login again with new password",
+    "backToLogin": "Back to Login",
+    "error": "Failed to reset password. Please try again.",
+    "errorTokenMissing": "Reset token is missing. Please request a new reset link.",
+    "errorPasswordRequired": "Please enter your new password.",
+    "errorPasswordMinLength": "Password must be at least 8 characters long.",
+    "errorPasswordNoSpaces": "Password cannot contain spaces.",
+    "errorConfirmPasswordRequired": "Please confirm your new password.",
+    "errorPasswordMismatch": "Passwords do not match. Please try again.",
+    "invalidToken": "Invalid token. Please request a new reset link.",
+    "oldPassword": "Old password",
+    "oldPasswordRequired": "Please enter your old password.",
+    "errorOldPasswordRequired": "Please enter your old password.",
+    "errorPasswordSameAsOld": "New password must be different from your old password.",
+    "userNotFound": "User not found. Please try again."
+  },
+  "userStatus": {
+    "all": "All",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "userRole": {
+    "all": "All",
+    "admin": "Admin",
+    "user": "User",
+    "creditOfficerAnalyst": "Credit Officer / Analyst",
+    "complianceOfficer": "Compliance Officer"
+  },
+  "searchFileName": "Search...",
+  "searchVendorName": "Search vendor name",
+  "totalItems": "Total {{count}} items",
+  "goTo": "Go to",
+  "page": "page",
+  "uploadedHistory": {
+    "title": "Uploaded History",
+    "welcome": "Welcome back",
+    "totalDocuments": "Total {{count}} documents",
+    "upload": "Upload",
+    "table": {
+      "fileName": "File Name",
+      "status": "Status",
+      "documentType": "Type",
+      "fyPeriod": "FY/Period",
+      "dateUpload": "Date Upload",
+      "lastModified": "Last Modified",
+      "action": "Action",
+      "uploadedBy": "Uploaded By",
+      "createdDate": "Created date",
+      "fraudDetection": "Fraud Detection",
+      "approver": "Approver",
+      "detectedDocumentType": "Detected Document Type"
+    },
+    "menu": {
+      "open": "Open menu",
+      "view": "View",
+      "viewDisabled": "View (not available)",
+      "download": "Download",
+      "delete": "Delete",
+      "retry": "Retry",
+      "edit": "Edit"
+    },
+    "status": {
+      "title": "Status",
+      "placeholder": "Select a status",
+      "all": "All",
+      "processing": "Processing",
+      "review": "Review"
+    },
+    "documentType": {
+      "title": "Document type",
+      "placeholder": "Select a document type",
+      "all": "All",
+      "financialStatement": "Financial statement",
+      "bankStatement": "Bank statement",
+      "fraudAndAnomaly": "Fraud & Anomaly",
+      "financialAnalysis": "Financial analysis"
+    },
+    "dateUpload": {
+      "title": "Date upload",
+      "placeholder": "Select a date",
+      "selectDate": "Select date"
+    },
+    "uploading": {
+      "uploading": "Uploading...",
+      "success": "Successfully uploaded {{count}} file(s)",
+      "error": "Upload failed"
+    },
+    "modal": {
+      "title": "Document Upload",
+      "description": "Add your Financial statement and Bank statement here, and you can upload up to 50 files max",
+      "drag": "Drag your file(s) or",
+      "browse": "browse",
+      "onlySupport": "Only support .pdf, .xlsx and .csv",
+      "maxFilesError": "Maximum 50 files allowed",
+      "invalidFileTypeError": "Unsupported file format. Please upload a valid file."
+    },
+    "consent": {
+      "title": "PDPA Consent",
+      "description": "Before uploading documents, you must accept the data processing terms. Data will be processed for parsing, classification, and stored per retention policy",
+      "content1": "Retention: configurable by Admin (default 12 months)",
+      "content2": "Personal data will be masked when required",
+      "content3": "You can withdraw consent in Account settings — this may delete uploaded data",
+      "acceptContinue": "Accept & Continue",
+      "cancel": "Cancel"
+    },
+    "zipPassword": {
+      "title": "Zip File Password",
+      "description": "Please specify if your zip files are password protected and enter the password if needed.",
+      "hasPassword": "This file has a password",
+      "password": "Password",
+      "passwordPlaceholder": "Enter password",
+      "passwordRequired": "Please enter password for the selected zip file(s)",
+      "confirm": "Continue",
+      "cancel": "Cancel"
+    },
+    "processingQueue": {
+      "title": "Processing Queue",
+      "description": "Files still uploading or being extracted. Metadata (vendor/type/year) may not be available yet..."
+    },
+    "processedDocuments": {
+      "title": "Processed Documents",
+      "description": "Only files that completed extraction (Review / Approved) are grouped by Vendor → Document Type → Year/Period..."
+    },
+    "viewDetails": "View Details",
+    "deleteDocument": {
+      "title": "Delete Document",
+      "confirmation": "Are you sure you want to delete \"{{fileName}}\"? This action cannot be undone.",
+      "success": "Document deleted successfully",
+      "error": "Failed to delete document",
+      "deleting": "Deleting..."
+    },
+    "retryDocument": {
+      "title": "Retry Document",
+      "confirmation": "Are you sure you want to retry processing \"{{fileName}}\"?",
+      "success": "Document retry initiated successfully",
+      "error": "Failed to retry document",
+      "retrying": "Retrying...",
+      "confirm": "Retry"
+    },
+    "doc": "document",
+    "docs": "documents",
+    "uploadError": {
+      "title": "Upload Error",
+      "errors": "Errors",
+      "files": "Files",
+      "duplicate": "Duplicate",
+      "successful": "Successful",
+      "failed": "Failed",
+      "close": "Close",
+      "fileAlreadyExists": "{{fileName}}: File already exists in institution"
+    }
+  },
+  "financialStatement": {
+    "subHeader": {
+      "title": "Financial Statement",
+      "titleAction": "Consolidated Analysis",
+      "preview": "Preview",
+      "export": "Export"
+    },
+    "exportSuccess": "File exported successfully.",
+    "exportError": "Failed to export file. Please try again.",
+    "analytics": {
+      "vendorName": "Vendor",
+      "userId": "User ID",
+      "financialYear": "Financial Year",
+      "finalResult": "Final Result",
+      "currency": "Currency",
+      "status": "Status",
+      "analytics": "Analytics",
+      "reason": "Reason",
+      "polling": "Polling",
+      "fetchingAnalysis": "Fetching analysis data...",
+      "analysisError": "Analysis failed. Please retry.",
+      "cannotBeCalculated": "Cannot be calculated",
+      "retry": "Retry Analysis",
+      "retrying": "Retrying...",
+      "retrySuccess": "Analysis retry initiated successfully",
+      "retryError": "Failed to retry analysis",
+      "uploadedBy": "Uploaded by",
+      "extractedData": "Extracted Data",
+      "financialRatioAnalysis": "Financial Ratio Analysis",
+      "description": "Comprehensive analysis of {{count}} key financial ratios across 6 categories. Click the info icon on each card to view the calculation formula.",
+      "liquidityRatios": "Liquidity Ratios (Short-term Solvency)",
+      "solvencyRatios": "Solvency Ratios (Long-term Stability)",
+      "profitabilityRatios": "Profitability Ratios",
+      "efficiencyRatios": "Efficiency Ratios",
+      "cashFlowRatios": "Cash Flow Ratios",
+      "edit": "Edit",
+      "bidderSpecificCriticalRatios": "Bidder-Specific Critical Ratios",
+      "item": {
+        "currentRatio": "Current Ratio",
+        "quickRatio": "Quick Ratio (Acid-Test)",
+        "cashRatio": "Cash Ratio",
+        "debtToEquityRatio": "Debt-to-Equity Ratio",
+        "debtToAssetsRatio": "Debt-to-Assets Ratio",
+        "interestCoverageRatio": "Interest Coverage Ratio",
+        "grossProfitMargin": "Gross Profit Margin",
+        "operatingProfitMargin": "Operating Profit Margin",
+        "netProfitMargin": "Net Profit Margin",
+        "returnOnAssets": "Return on Assets (ROA)",
+        "returnOnEquity": "Return on Equity (ROE)",
+        "inventoryTurnover": "Inventory Turnover",
+        "receivablesTurnover": "Receivables Turnover",
+        "daysSalesOutstanding": "Days Sales Outstanding (DSO)",
+        "assetTurnover": "Asset Turnover",
+        "operatingCashFlowRatio": "Operating Cash Flow Ratio",
+        "cashFlowMargin": "Cash Flow Margin",
+        "freeCashFlow": "Free Cash Flow",
+        "workingCapital": "Working Capital",
+        "cashConversionCycle": "Cash Conversion Cycle",
+        "currentLiabilityCoverage": "Current Liability Coverage",
+        "timesInterestEarned": "Times Interest Earned (TIE)",
+        "timesInterestEarnedRatio": "Times Interest Earned Ratio",
+        "dupontRoe": "DuPont ROE",
+        "breakdown": "Breakdown",
+        "day": "day",
+        "days": "days",
+        "status": {
+          "warning": "Warning",
+          "failed": "Failed",
+          "passed": "Passed"
+        }
+      },
+      "interpretation": {
+        "title": "Interpretation",
+        "failedRatiosAnalysis": "Failed ratios analysis",
+        "positiveIndicators": "Positive indicators",
+        "anomaliesAndFlags": "Anomalies and flags",
+        "goingConcernAssessment": "Going concern assessment"
+      },
+      "recommendation": {
+        "title": "Final Recommendation",
+        "conditions": "Conditions",
+        "rationale": "Rationale",
+        "recommendation": "Recommendation"
+      },
+      "saveSuccess": "Data overridden successfully.",
+      "saveError": "Failed to override data. Please try again.",
+      "previewAndEditExtractedData": "Preview & Edit Extracted Data",
+      "unableToRetrieveAnalysisData": "Unable to retrieve analysis data. Please press reload button to try again",
+      "loadingAnalysisData": "Loading analysis data...",
+      "reloading": "Reloading...",
+      "reload": "Reload",
+      "analysis": "Analysis",
+      "rationale": "Rationale",
+      "finalResultOptions": {
+        "medium": "Medium",
+        "weak": "Weak",
+        "strong": "Strong"
+      },
+      "dataSourcesAudit": {
+        "title": "Data Sources Audit And Assumptions",
+        "financial_statements_review": "Financial Statements Review",
+        "audit_opinion_and_qualifications": "Audit Opinion And Qualifications",
+        "peer_and_industry_data_sources": "Peer And Industry Data Sources",
+        "key_assumptions_and_adjustments": "Key Assumptions And Adjustments",
+        "management_competence_and_track_record": "Management Competence And Track Record",
+        "related_party_transactions_analysis": "Related Party Transactions Analysis",
+        "governance_and_internal_controls": "Governance And Internal Controls",
+        "liquidity_analysis": "Liquidity Analysis",
+        "solvency_analysis": "Solvency Analysis",
+        "working_capital_analysis": "Working Capital Analysis",
+        "profitability_analysis": "Profitability Analysis",
+        "efficiency_analysis": "Efficiency Analysis",
+        "cashflow_analysis": "Cashflow Analysis",
+        "collateral_strength_evaluation": "Collateral Strength Evaluation",
+        "borrowing_base_calculation": "Borrowing Base Calculation",
+        "existing_liens": "Existing Liens",
+        "covenant_compliance": "Covenant Compliance",
+        "contingent_and_legal_exposures": "Contingent And Legal Exposures",
+        "customer_concentration": "Customer Concentration",
+        "earnings_quality_and_red_flags": "Earnings Quality And Red Flags",
+        "vertical_analysis": "Vertical Analysis",
+        "industry_average_benchmarking": "Industry Average Benchmarking",
+        "direct_peer_comparison": "Direct Peer Comparison",
+        "going_concern_assessment": "Going Concern Assessment",
+        "risk_scoring_summary": "Risk Scoring Summary",
+        "overall_analysis_result": "Overall Analysis Result",
+        "credit_recommendation": "Credit Recommendation",
+        "macroeconomic_and_sector_outlook": "Macroeconomic And Sector Outlook"
+      },
+      "managementAssessment": {
+        "title": "Management And Governance Assessment",
+        "management_competence_and_track_record": "Management Competence And Track Record",
+        "related_party_transactions_analysis": "Related Party Transactions Analysis",
+        "governance_and_internal_controls": "Governance And Internal Controls"
+      },
+      "ratioAnalysis": {
+        "title": "Ratio Analysis",
+        "liquidity_analysis": "Liquidity Analysis",
+        "solvency_analysis": "Solvency Analysis",
+        "working_capital_analysis": "Working Capital Analysis",
+        "profitability_analysis": "Profitability Analysis",
+        "efficiency_analysis": "Efficiency Analysis",
+        "cashflow_analysis": "Cashflow Analysis"
+      },
+      "collateralAnalysis": {
+        "title": "Collateral Analysis",
+        "collateral_strength_evaluation": "Collateral Strength Evaluation",
+        "borrowing_base_calculation": "Borrowing Base Calculation",
+        "existing_liens": "Existing Liens"
+      },
+      "notesBasedRiskAnalysis": {
+        "title": "Notes Based Risk Analysis",
+        "covenant_compliance": "Covenant Compliance",
+        "contingent_and_legal_exposures": "Contingent and Legal Exposures",
+        "customer_concentration": "Customer Concentration",
+        "earnings_quality_and_red_flags": "Earnings Quality and Red Flags"
+      },
+      "trendAnalysis": {
+        "title": "Trend Analysis",
+        "vertical_analysis": "Vertical Analysis"
+      },
+      "industryAveragePeerComparison": {
+        "title": "Industry Average & Peer Comparison",
+        "macroeconomic_and_sector_outlook": "Macroeconomic and Sector Outlook",
+        "industry_average_benchmarking": "Industry Average Benchmarking",
+        "direct_peer_comparison": "Direct Peer Comparison"
+      },
+      "finalConclusionAndRecommendation": {
+        "title": "Final Conclusion and Recommendation",
+        "going_concern_assessment": "Going Concern Assessment",
+        "risk_scoring_summary": "Risk Scoring Summary",
+        "overall_analysis_result": "Overall Analysis Result",
+        "credit_recommendation": "Credit Recommendation"
+      }
+    },
+    "extractedData": {
+      "balanceSheet": "Balance Sheet",
+      "incomeStatement": "Income Statement",
+      "cashFlowStatement": "Cash Flow Statement",
+      "category": "Category",
+      "amount": "Amount"
+    },
+    "message": {
+      "loading": "Loading...",
+      "error": "Error loading document. Please try again.",
+      "noData": "No data to display",
+      "unsupportedFileType": "Unsupported file type for preview",
+      "failedToLoadCsv": "Failed to load CSV file",
+      "loadingPdf": "Loading PDF...",
+      "failedToLoadPdf": "Failed to load PDF"
+    },
+    "modalEditor": {
+      "reasonRequired": "Reason is required",
+      "title": "Edit Final Recommendation",
+      "status": "Status",
+      "justification": "Justification",
+      "save": "Save",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "failedRatiosAnalysis": "Failed ratios analysis",
+      "reason": "Reason",
+      "analysisRequired": "Analysis is required",
+      "rationaleRequired": "Rationale is required",
+      "finalResultRequired": "Final Result is required",
+      "selectAnalysis": "Select Analysis"
+    },
+    "consolidatedAnalysis": {
+      "noDocuments": "No documents available for consolidated analysis",
+      "createSuccess": "Consolidated analysis created successfully",
+      "createError": "Failed to create consolidated analysis",
+      "deleteSuccess": "Consolidated analysis deleted successfully",
+      "deleteError": "Failed to delete consolidated analysis",
+      "deleteTitle": "Delete Consolidated Analysis",
+      "deleteConfirmation": "Are you sure you want to delete \"{{fileName}}\"? This action cannot be undone.",
+      "pleaseSelectAtLeastTwoDocuments": "The minimum required number of documents is 2",
+      "deleting": "Deleting...",
+      "waitingForData": "Waiting for data"
+    }
+  },
+  "bankStatement": {
+    "subHeader": {
+      "preview": "Preview",
+      "export": "Export"
+    },
+    "viewFullDetection": "View Full Fraud Detection Report",
+    "exportSuccess": "File exported successfully.",
+    "exportError": "Failed to export file. Please try again.",
+    "information": {
+      "vendor": "Vendor",
+      "bankName": "Bank name",
+      "address": "Address",
+      "accountNumber": "Account number",
+      "period": "Period",
+      "currency": "Currency",
+      "uploadedBy": "Uploaded by",
+      "to": "to"
+    },
+    "summary": {
+      "openingBalance": "Opening Balance",
+      "closingBalance": "Closing Balance",
+      "totalCredits": "Total Credits",
+      "totalDebits": "Total Debits",
+      "transactionCount": "Transaction count",
+      "averageBalance": "Average Balance"
+    },
+    "balanceMetrics": {
+      "title": "Balance Metrics",
+      "openingBalance": "Opening Balance",
+      "closingBalance": "Closing Balance",
+      "averageBalance": "Average Balance",
+      "minBalance": "Min Balance",
+      "totalDebits": "Total Debits",
+      "totalCredits": "Total Credits"
+    },
+    "cashFlow": {
+      "title": "Cash Flow",
+      "totalInflow": "Total Inflow",
+      "totalOutflow": "Total Outflow",
+      "inflowOutflowRatio": "Inflow/Outflow Ratio"
+    },
+    "transactionCategories": {
+      "title": "Transaction Categories",
+      "transaction": "transaction",
+      "transactions": "transactions",
+      "categories": {
+        "salary": "Salary",
+        "transfer": "Transfer",
+        "insurance": "Insurance",
+        "loanRepayment": "Loan Repayment",
+        "utilities": "Utilities",
+        "others": "Others",
+        "education": "Education",
+        "cashWithdrawal": "Cash Withdrawal"
+      }
+    },
+    "riskPatterns": {
+      "title": "Risk Patterns",
+      "viewFullReport": "View Full Risk Report",
+      "editTitle": "Edit Risk Patterns",
+      "txnId": "TXN ID:",
+      "category": "Category",
+      "selectCategory": "Select category",
+      "rationale": "Rationale",
+      "reason": "Reason",
+      "reasonPlaceholder": "Enter reason...",
+      "categoryRequired": "Category is required",
+      "rationaleRequired": "Rationale is required",
+      "reasonRequired": "Reason is required",
+      "saveSuccess": "Risk pattern updated successfully",
+      "addNoteTitle": "Add Note - {{riskType}}",
+      "addNoteLabel": "Add a note",
+      "addNotePlaceholder": "Enter your note...",
+      "addNoteRequired": "Note is required",
+      "patterns": {
+        "roundTripping": "ROUND TRIPPING",
+        "gamblingActivity": "GAMBLING ACTIVITY"
+      },
+      "descriptions": {
+        "roundTripping": "Funds moved out and back within 24 hours via the same counterparty.",
+        "gamblingActivity": "Merchant BET365 is a known online gambling platform."
+      }
+    },
+    "creditMetrics": {
+      "title": "Credit Metrics",
+      "bufferRatio": "Buffer Ratio",
+      "cashVolatility": "Cash Volatility"
+    },
+    "analytics": {
+      "fetchingAnalysis": "Fetching analysis data..."
+    },
+    "fraudQuickSummary": {
+      "title": "Fraud quick summary",
+      "rulesTriggered": "Rules triggered",
+      "mlAnomalies": "ML anomalies",
+      "viewFullReport": "View full fraud report",
+      "detectedFraudulentTransactions": "Detected {{numberTransactions}} fraudulent transactions"
+    },
+    "transactionTable": {
+      "txnId": "TXN ID",
+      "total": "Total",
+      "transaction": "Transaction",
+      "transactions": "Transactions",
+      "title": "Transaction table",
+      "totalTransactions": "Total {{count}} transactions",
+      "totalTransaction": "Total {{count}} transaction",
+      "date": "Date",
+      "description": "Description",
+      "debit": "Debit",
+      "credit": "Credit",
+      "balance": "Balance",
+      "category": "Category"
+    }
+  },
+  "combinedAnalysis": {
+    "title": "Combined Analysis",
+    "description": "Consolidated analysis combining financial performance and bank transaction behavior for informed credit decisions.",
+    "searchPlaceholder": "Search file name",
+    "search": "Search...",
+    "createAnalysis": "Combined Analysis",
+    "overallResult": "Overall Result",
+    "overallResultLabel": "Overall result:",
+    "createdBy": "Created By",
+    "createdDate": "Created Date",
+    "minDocumentsRequired": "Both Bank Statement and Financial Statement documents are required for combined analysis",
+    "createSuccess": "Combined analysis created successfully",
+    "createError": "Failed to create combined analysis",
+    "vendor": "Vendor:",
+    "export": "Export",
+    "exportSuccess": "File exported successfully.",
+    "exportError": "Failed to export file. Please try again."
+  },
+  "fraudAnomaly": {
+    "title": "Fraud & Anomaly Detection",
+    "search": "Search vendor name",
+    "searchLabel": "Search:",
+    "noResults": "No results found",
+    "detail": {
+      "title": "Fraud Detection",
+      "vendor": "Vendor",
+      "bankName": "Bank name",
+      "address": "Address",
+      "accountNumber": "Account number",
+      "period": "Period",
+      "currency": "Currency",
+      "fy": "FY",
+      "fraudTransactions": "Fraud Transactions",
+      "txnId": "TXN ID",
+      "date": "Date",
+      "description": "Description",
+      "debit": "Debit",
+      "credit": "Credit",
+      "flag": "Flag",
+      "status": "Status",
+      "statusFalsePositive": "False Positive",
+      "statusFraud": "Fraud",
+      "action": "Action",
+      "view": "View Details",
+      "reason": "Reason",
+      "confirmBy": "Confirm by",
+      "modal": {
+        "title": "Transaction detail",
+        "close": "Close",
+        "falsePositive": "False Positive",
+        "confirmFraud": "Confirm Fraud",
+        "falsePositiveTitle": "False Positive",
+        "confirmFraudTitle": "Confirm Fraud",
+        "confirmFraudMessage": "Are you sure this transaction is fraud?",
+        "reasonPlaceholder": "E.g, Transaction was to a restaurant, not a casino",
+        "reasonRequired": "Reason is required",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "processing": "Processing..."
+      },
+      "updateSuccess": "Transaction status updated successfully",
+      "updateSuccessFalsePositive": "False positive confirmed successfully",
+      "updateSuccessFraud": "Fraud confirmed successfully",
+      "updateError": "Failed to update transaction status"
+    }
+  },
+  "decisionReview": {
+    "title": "Decision Review",
+    "search": "Search vendor name",
+    "noResults": "No results found",
+    "table": {
+      "fileName": "File Name",
+      "aiDecision": "AI Decision",
+      "humanDecision": "Human Decision",
+      "overriddenBy": "Overridden By",
+      "overriddenAt": "Overridden At",
+      "action": "Action",
+      "view": "View Details"
+    },
+    "status": {
+      "label": "Status",
+      "all": "All",
+      "recommended": "Recommended",
+      "recommendedWithConditions": "Recommended with Conditions",
+      "notRecommended": "Not Recommended",
+      "recommended-api": "Recommended",
+      "recommended-with-conditions-api": "Recommended with Conditions",
+      "not-recommended-api": "Not Recommended",
+      "strong": "Strong",
+      "medium": "Medium",
+      "weak": "Weak"
+    },
+    "detail": {
+      "vendor": "Vendor",
+      "overriddenAt": "Overridden At",
+      "complianceOfficer": "Compliance Officer",
+      "aiRecommendation": "AI Recommendation",
+      "yourOverride": "Human Override",
+      "conditions": "Conditions",
+      "rationale": "Rationale",
+      "failedRatiosAnalysis": "Failed ratios analysis",
+      "positiveIndicators": "Positive indicators",
+      "uploadedBy": "Uploaded by",
+      "financialYear": "Financial Year",
+      "currency": "Currency",
+      "status": "Status",
+      "overriddenBy": "Overridden By"
+    }
+  },
+  "documentDetail": {
+    "header": {
+      "title": "Preview & Edit Extracted Data"
+    },
+    "documentType": {
+      "financialStatement": "Financial statement",
+      "bankStatement": "Bank statement",
+      "consolidatedAnalyze": "Consolidated analysis",
+      "combinedAnalyze": "Combined analysis",
+      "financialAnalysis": "Financial analysis",
+      "uploaded": "Uploaded"
+    },
+    "footer": {
+      "back": "Back",
+      "cancel": "Cancel",
+      "saving": "Saving...",
+      "saveAndApprove": "Save & Approve",
+      "save": "Save",
+      "approve": "Approve",
+      "saveAndApproveSuccess": "Document saved and approved successfully",
+      "saveSuccess": "Document saved successfully"
+    },
+    "extractedData": {
+      "documentInformation": "Document Information",
+      "table": "Table",
+      "noData": "No data",
+      "enterValue": "Enter value",
+      "maxLengthError": "Input is limited to 20 characters",
+      "fields": {
+        "vendorName": "Vendor name",
+        "documentDate": "Date",
+        "currency": "Currency",
+        "accountName": "Account name",
+        "accountHolderAddress": "Account holder address",
+        "accountCurrency": "Account currency",
+        "endingBalance": "Ending balance",
+        "accountNumber": "Account number",
+        "bankName": "Bank name",
+        "beginningBalance": "Beginning balance"
+      },
+      "tableColumns": {
+        "date": "Date",
+        "description": "Description",
+        "debit": "Debit",
+        "credit": "Credit",
+        "balance": "Balance",
+        "category": "Category",
+        "amount": "Amount",
+        "score": "Score"
+      }
+    },
+    "preview": {
+      "title": "Original (preview)",
+      "pdfPreview": "PDF Preview",
+      "excelPreview": "Excel Preview",
+      "downloadExcelFile": "Download Excel File",
+      "loadingCsv": "Loading CSV file...",
+      "noDataToDisplay": "No data to display",
+      "unsupportedFileType": "Unsupported file type for preview",
+      "failedToLoadCsv": "Failed to load CSV file",
+      "loadingPdf": "Loading PDF...",
+      "failedToLoadPdf": "Failed to load PDF",
+      "pdfAccessDenied": "PDF file access denied (403)",
+      "pdfNotFound": "PDF file not found (404)",
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "resetZoom": "Reset Zoom",
+      "page": "Page",
+      "of": "of",
+      "goToPreviousPage": "Go to previous page",
+      "goToNextPage": "Go to next page"
+    }
+  },
+  "button": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "previous": "Previous",
+    "next": "Next",
+    "update": "Update",
+    "create": "Create"
+  },
+  "form": {
+    "saving": "Saving..."
+  },
+  "dataTable": {
+    "search": "Search...",
+    "page": "Page",
+    "of": "of",
+    "noResults": "No Data"
+  },
+  "auditLogs": {
+    "subTitle": "Manage your audit logs",
+    "export": "Export",
+    "filters": {
+      "search": "Search",
+      "date": "Date",
+      "datePlaceholder": "Select date",
+      "dateFrom": "Date From",
+      "dateFromPlaceholder": "Select start date",
+      "dateTo": "Date To",
+      "dateToPlaceholder": "Select end date",
+      "user": "User name",
+      "userPlaceholder": "Select user",
+      "actionType": "Action type",
+      "actionTypePlaceholder": "Select action type",
+      "all": "All"
+    },
+    "exportSuccess": "File exported successfully",
+    "exportFailed": "File export failed",
+    "exporting": "Exporting...",
+    "table": {
+      "timestamp": "Timestamp",
+      "user": "User Name",
+      "role": "Role",
+      "actionType": "Action Type",
+      "description": "Description",
+      "ipDevice": "IP / Device"
+    },
+    "description": {
+      "showMore": "Show more",
+      "showLess": "Show less",
+      "action": "Action",
+      "documentId": "Document ID",
+      "fileName": "File Name",
+      "changes": "Changes",
+      "field": "Field",
+      "oldValue": "Old Value",
+      "newValue": "New Value",
+      "noReasonFound": "No sections with reason found",
+      "totalChanges": "Total Changes",
+      "changeTypes": "Change Types",
+      "metadata": "Metadata",
+      "modified": "Modified",
+      "added": "Added",
+      "deleted": "Deleted"
+    }
+  },
+  "documentRetention": {
+    "subTitle": "Document retention is the process of managing the retention of documents in the system.",
+    "noDataMessage": "No data found or retention policy is not set.",
+    "policy": {
+      "title": "Retention Policy:",
+      "description": "Uploaded Documents {{uploadedDays}} days and Derived Data {{derivedDays}} days will be automatically deleted at the end of their respective retention periods per institutional compliance settings. Near expiry warnings are shown 90 days before deletion."
+    },
+    "filters": {
+      "searchPlaceholder": "Search file name",
+      "documentType": "Document type",
+      "uploadedBy": "Uploaded by",
+      "daysRemaining": "Days remaining",
+      "all": "All",
+      "expiringVerySoon": "1-30 days",
+      "expiringSoon": "30-90 days",
+      "safe": "90+ days"
+    },
+    "table": {
+      "fileName": "File Name",
+      "documentType": "Document Type",
+      "vendorName": "Vendor Name",
+      "uploadedBy": "Uploaded By",
+      "dateUpload": "Date Upload",
+      "autoDeletionSchedule": "Auto-Deletion Schedule",
+      "daysRemaining": "Days Remaining"
+    },
+    "legend": {
+      "title": "Days Remaining"
+    }
+  },
+  "institution": {
+    "title": "Institution Settings",
+    "subTitle": "Configure your institution's basic information, contact details, and system preferences...",
+    "editSettings": "Edit Settings",
+    "saveSettings": "Save Settings",
+    "cancel": "Cancel",
+    "saveSuccess": "Institution settings saved successfully",
+    "saveError": "Failed to save institution settings",
+    "loadError": {
+      "title": "Error loading institution settings",
+      "description": "Failed to load institution settings"
+    },
+    "idRequired": "Institution ID is required",
+    "basicInformation": {
+      "title": "Basic Information",
+      "fullName": "Institution Full Name",
+      "fullNamePlaceholder": "Enter institution full name",
+      "shortName": "Institution Short Name / Acronym",
+      "shortNamePlaceholder": "Enter short name or acronym",
+      "code": "Institution Code (Tenant ID)",
+      "codeHelper": "Unique system identifier for your institution"
+    },
+    "logo": {
+      "title": "Institution Logo",
+      "uploading": "Uploading logo...",
+      "helper": "Upload your institution logo (PNG, JPG, SVG)",
+      "uploadSuccess": "Logo uploaded successfully",
+      "uploadError": "Failed to upload logo",
+      "uploadButtonLabel": "Click to upload institution logo",
+      "formatHelper": "PNG or SVG format, max 5MB. Recommended: 200x200px"
+    },
+    "contactInformation": {
+      "title": "Contact Information",
+      "email": "Primary Contact Email",
+      "emailPlaceholder": "Enter primary contact email",
+      "emailHelper": "Email for system notifications, password resets and alerts",
+      "phone": "Primary Contact Phone",
+      "phonePlaceholder": "Enter primary contact phone"
+    },
+    "address": {
+      "title": "Address (Head Office)",
+      "streetAddress": "Street Address",
+      "streetAddressPlaceholder": "Enter street address",
+      "city": "City",
+      "cityPlaceholder": "Enter city",
+      "postalCode": "Postal Code",
+      "postalCodePlaceholder": "Enter postal code",
+      "country": "Country",
+      "countryPlaceholder": "Enter country"
+    },
+    "taxInformation": {
+      "title": "Tax Information",
+      "taxId": "Tax Identification Number",
+      "taxIdPlaceholder": "Enter tax identification number",
+      "taxIdHelper": "10-13 digit tax identification number"
+    },
+    "defaultSettings": {
+      "title": "Default Settings",
+      "language": "Default Language",
+      "languagePlaceholder": "Select language",
+      "languageHelper": "Default interface language for new users",
+      "currency": "Default Currency",
+      "currencyPlaceholder": "Select currency",
+      "currencyHelper": "Default currency for financial transactions",
+      "timezone": "Default timezone",
+      "timezonePlaceholder": "Select timezone",
+      "timezoneHelper": "Default timezone for new users"
+    }
+  },
+  "retentionPolicy": {
+    "title": "Tenant Retention & Deletion Settings",
+    "subTitle": "Configure how long uploaded documents and derived data are retained. Audit and exception controls include...",
+    "editSettings": "Edit Settings",
+    "saveSuccess": "Retention settings saved successfully",
+    "resetSuccess": "Retention settings reset successfully",
+    "saveError": "Failed to save retention settings",
+    "loadError": "Failed to get retention settings",
+    "alert": {
+      "title": "Important: Data Retention Policy",
+      "description": "Deleted data cannot be recovered. Ensure retention periods comply with your organization's legal and regulatory requirements before enabling automatic deletion."
+    },
+    "retentionPeriods": {
+      "title": "Retention Periods",
+      "uploadedDocuments": {
+        "title": "Uploaded Documents",
+        "subTitle": "Retention Period (days)"
+      },
+      "derivedData": {
+        "title": "Derived Data",
+        "subTitle": "Retention Period (days)"
+      },
+      "auditLogs": {
+        "title": "Audit Logs",
+        "subTitle": "Retention Period (days)"
+      },
+      "helper": "Approximately {{years}} years",
+      "enterDays": "Enter days"
+    },
+    "automaticDeletion": {
+      "title": "Automatic Deletion",
+      "enableTitle": "Enable Automatic Deletion",
+      "enableDescription": "Automatically delete data that exceeds the retention period",
+      "srOnly": "Enable Automatic Deletion",
+      "notificationHelper": "Send email notifications scheduled deletions to Compliance Officers and Credit Officers who uploaded the document"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "resetToDefaults": "Reset to Defaults",
+      "saveSettings": "Save Settings"
+    }
+  },
+  "reviewExtraction": {
+    "pageSubTitle": "Review extracted data for accuracy and completeness. Approval confirms the data as final and ready for analysis",
+    "uploadSubTitle": "This step tracks ingestion only. Documents must be reviewed and approved before analysis",
+    "viewDetails": "View Details",
+    "reviewDocuments": "Review Documents",
+    "uploadDocument": "Upload Document",
+    "uploadedFiles": "Uploaded Files",
+    "confirmExtract": "Confirm & Extract",
+    "goToReview": "Go to Review",
+    "confirmExtractDescription": "Are you sure you want to confirm and extract this document?",
+    "deleteDocument": "Delete Document",
+    "deleteDocumentDescription": "Are you sure you want to delete this document? This action cannot be undone.",
+    "uploadedFilesNoData": "The list of uploaded documents will appear here",
+    "searchByVendorName": "Search by vendor name",
+    "noResultsSearch": "No results found for your search",
+    "noResultsUpload": "Upload documents in the Upload stage. Once extraction is complete, companies will appear here for review.",
+    "noFinancialStatementExtraction": "No financial statement extraction found",
+    "noBankStatementExtraction": "No bank statement extraction found",
+    "documentsToReview": "{{count}} document(s) to review",
+    "approveDataGenerateAnalysis": "Approve Data & Generate Analysis",
+    "generateAnalysis": "Generate Analysis",
+    "approveModalIntro": "You are about to approve the extracted data for this document. Once approved:",
+    "extractedDataLocked": "The extracted data will be locked and cannot be edited",
+    "correctionRequireNewExtraction": "Any correction will require a new extraction version",
+    "bankAnalysisGenerated": "Bank analysis will be generated automatically",
+    "financialAnalysisGenerated": "Financial analysis will be generated automatically",
+    "pleaseConfirmReviewed": "Please confirm that the data has been reviewed and is accurate.",
+    "viewAnalysis": "View Analysis",
+    "generatingAnalysisMessage": "We're generating the analysis based on the approved documents.",
+    "processTakesMinutes": "This process usually takes 3–5 minutes.",
+    "noteWaitOrClose": "Note: You can wait here to view the results, or close this window and later check the analysis results under Analysis: Credit Signal",
+    "scanning": "Scanning",
+    "retryUploadDocument": "Retry Upload Document",
+    "retryUploadDocumentDescription": "Are you sure you want to retry uploading this document?"
+  },
+  "sso": {
+    "title": "Single Sign-On (SSO) Configuration",
+    "subTitle": "Set up Single Sign-On (SSO) integration to manage user authentication through an external Identity Provider (IdP).",
+    "mustBeInstitution": "You must be associated with an institution to configure SSO.",
+    "enableSSO": "Enable SSO Authentication",
+    "enableSSODescription": "Allow users to authenticate using Single Sign-On",
+    "protocol": "Protocol",
+    "selectProtocol": "Select protocol",
+    "selectProtocolHelper": "Select the authentication protocol used by your Identity Provider",
+    "identityProviderConfig": "Identity Provider Configuration",
+    "entityId": "Entity ID / Issuer URL",
+    "entityIdPlaceholder": "https://idp.example.com/entity-id",
+    "entityIdHelper": "The unique identifier for your Identity Provider",
+    "ssoUrl": "SSO URL / Login URL",
+    "ssoUrlPlaceholder": "https://idp.example.com/sso/login",
+    "ssoUrlHelper": "The URL where authentication requests will be sent",
+    "x509Certificate": "X.509 Certificate",
+    "x509Placeholder": "-----BEGIN CERTIFICATE-----",
+    "attributeMapping": "Attribute Mapping",
+    "attributeMappingHelper": "Map the attributes from your Identity Provider to user fields in ClearSight",
+    "allowedDomains": "Allowed Domains (e.g. @companyname.com)",
+    "allowedDomainsPlaceholder": "@example.com",
+    "add": "Add",
+    "serviceProviderInfo": "Service Provider Information",
+    "serviceProviderInfoHelper": "Provide these details to your Identity Provider administrator:",
+    "spEntityId": "SP Entity ID",
+    "acsUrl": "ACS URL",
+    "connectionSuccessful": "Connection Successful",
+    "connectionSuccessfulDesc": "SSO configuration is valid and ready to use",
+    "saveConfiguration": "Save Configuration",
+    "saving": "Saving...",
+    "createSuccess": "SSO configuration created successfully",
+    "updateSuccess": "SSO configuration updated successfully",
+    "institutionalIdRequired": "Institutional ID is required",
+    "entityIdRequired": "Entity ID / Issuer URL is required",
+    "ssoUrlRequired": "SSO URL / Login URL is required",
+    "copiedToClipboard": "{{label}} copied to clipboard",
+    "clipboardNotAvailable": "Clipboard API not available",
+    "copyFailed": "Failed to copy to clipboard",
+    "saveFailed": "Failed to save SSO configuration",
+    "urlInvalidProtocol": "URL must use http:// or https:// protocol",
+    "urlInvalid": "Please enter a valid URL (e.g., https://idp.example.com/entity-id)",
+    "certificateEmpty": "X.509 Certificate cannot be empty",
+    "certificateStart": "Certificate must start with -----BEGIN CERTIFICATE-----",
+    "certificateEnd": "Certificate must end with -----END CERTIFICATE-----"
+  },
+  "analysis": {
+    "pageSubTitle": "Review signals, document interpretations, and export outputs",
+    "viewDetails": "View Details",
+    "bankStatementSubTitle": "Analyze cash flows, transaction patterns, and banking risks from this statement",
+    "financialStatementSubTitle": "In-depth financial analysis based on extracted and validated statement data",
+    "fraudDetectionSubTitle": "Analyze suspicious transactions and fraud patterns",
+    "combinedAnalysisSubTitle": "Overall assessment across financial and bank data",
+    "searchByVendorName": "Search by vendor name",
+    "noResultsSearch": "No results found for your search",
+    "noResultsCompleteReview": "Complete the Review stage and approve documents to generate analysis",
+    "consolidatedAnalysis": "Consolidated Analysis",
+    "confirmCreateConsolidated": "Confirm Create Consolidated Analysis",
+    "confirmDeleteFinancialAnalysis": "Confirm Delete Financial Statement Analysis",
+    "confirmCreateConsolidatedDesc": "You are about to create a consolidated analysis for all approved financial analyses for this vendor. This action cannot be undone.",
+    "confirmDeleteFinancialAnalysisDesc": "You are about to delete the financial statement analysis. This action cannot be undone.",
+    "confirmDeleteConsolidatedAnalysis": "Confirm Delete Consolidated Analysis",
+    "confirmDeleteConsolidatedAnalysisDesc": "You are about to delete the consolidated analysis. This action cannot be undone.",
+    "consolidatedAnalysisNoData": "Click Consolidated Analysis to generate a consolidated view of all approved financial analyses for this vendor.",
+    "noFinancialStatementAnalysis": "No financial statement analysis found",
+    "noBankStatementAnalysis": "No bank statement analysis found",
+    "financialStatementAnalysis": "Financial Statement Analysis",
+    "bankStatementAnalysis": "Bank Statement Analysis",
+    "combinedAnalysisLabel": "Combined Analysis",
+    "fraudDetectionLabel": "Fraud Detection",
+    "financialStatementExtraction": "Financial Statement Extraction",
+    "bankStatementExtraction": "Bank Statement Extraction",
+    "summaryLabel": "Summary",
+    "noteSaveSuccess": "Note saved successfully",
+    "noteSaveError": "Failed to save note",
+    "addNotePlaceholder": "Add Note",
+    "editNote": "Edit Note",
+    "note": "Note",
+    "addNoteLabel": "Add a note",
+    "confirmCreateCombinedAnalysis": "Confirm Create Combined Analysis",
+    "confirmCreateCombinedAnalysisDesc": "You are about to create a combined analysis for all approved financial analyses for this vendor. This action cannot be undone.",
+    "confirmDeleteCombinedAnalysis": "Confirm Delete Combined Analysis",
+    "confirmDeleteCombinedAnalysisDesc": "You are about to delete the combined analysis. This action cannot be undone.",
+    "create": "Create",
+    "combinedAnalysisRequiresBoth": "Requires both Financial and Bank analyses",
+    "combinedAnalysisRequiresAtLeastTwoDocuments": "Requires at least 2 documents",
+    "combinedAnalysisNoDataMessage": "Combined Analysis is generated only when both Financial Statement Analysis and Bank Statement Analysis are available for this company",
+    "generating": "Generating...",
+    "statusApproved": "Approved",
+    "statusRejected": "Rejected",
+    "headerFyPeriod": "FY/Period",
+    "headerOverallResult": "Overall Result",
+    "headerCreatedBy": "Created By",
+    "headerCreatedDate": "Created Date",
+    "headerAction": "Action"
+  },
+  "errors": {
+    "fullName": {
+      "required": "Full name is required"
+    },
+    "generic": "An error occurred",
+    "serverConnectionFailed": "Server connection failed",
+    "maxLength": "String should have at most {max} characters",
+    "email": {
+      "containsSpace": "Email cannot contain spaces",
+      "invalid": "Invalid email address",
+      "required": "Email is required"
+    },
+    "phone": {
+      "invalid": "Invalid phone number",
+      "required": "Phone number is required"
+    },
+    "field": {
+      "required": "This field is required",
+      "invalid": "Invalid value"
+    },
+    "fields": {
+      "name": "Name",
+      "short_name": "Short name",
+      "address": "Address",
+      "city": "City",
+      "postal_code": "Postal code",
+      "country": "Country"
+    },
+    "fillRequiredFields": "Please fill in all required fields",
+    "formNotValid": "Form not valid, please check the fields and try again."
+  }
+}
