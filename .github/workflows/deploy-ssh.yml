@@ -1,0 +1,115 @@
+name: Deploy Next.js with Docker
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    env:
+      REGISTRY: ghcr.io
+      IMAGE_NAME: ${{ github.repository }}/nextjs-app
+      SERVER_HOST: ${{ secrets.SERVER_HOST }}
+      SERVER_USER: ${{ secrets.SERVER_USERNAME }}
+      SERVER_PORT: ${{ secrets.SERVER_PORT || '8462' }}
+      SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
+
+    steps:
+      # 1. Checkout code
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Important for correct git behavior
+
+      # 2. Setup Node.js with caching
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      # 3. Smart Install: Try npm ci → if fails → auto-fix lockfile → retry
+      - name: Install Dependencies (with auto-fix)
+        run: |
+          echo "Attempting clean install with npm ci..."
+          if npm ci; then
+            echo "npm ci succeeded!"
+          else
+            echo "npm ci failed — package-lock.json is out of sync."
+            echo "Auto-fixing by regenerating package-lock.json..."
+            rm -f package-lock.json
+            npm install
+            echo "Retrying with npm ci after fix..."
+            npm ci
+          fi
+
+      # 4. Build the Next.js app
+      - name: Build Next.js App
+        run: npm run build
+
+      # 5. Login to GitHub Container Registry
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # 6. Build & Push Docker image
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile
+          push: true
+          tags: |
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+
+      # 7. Deploy to Server via SSH
+      - name: Deploy to Server
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -p ${{ env.SERVER_PORT }} ${{ env.SERVER_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
+
+          ssh -i ~/.ssh/id_rsa -p ${{ env.SERVER_PORT }} -o StrictHostKeyChecking=no \
+            ${{ env.SERVER_USER }}@${{ env.SERVER_HOST }} << 'EOF'
+            echo "Logging in to GHCR on server..."
+            echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+            echo "Pulling latest image..."
+            docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+
+            echo "Stopping old containers..."
+            docker compose -f /var/www/clear-sight-web/docker-compose.yml down --remove-orphans || true
+
+            echo "Starting new containers..."
+            docker compose -f /var/www/clear-sight-web/docker-compose.yml up -d
+
+            echo "Cleaning up old images..."
+            docker image prune -f
+
+            echo "Deploy completed successfully!"
+          EOF
+
+      # 8. Success / Failure messages
+      - name: Deploy Success
+        if: success()
+        run: |
+          echo "Deploy completed successfully!"
+          echo "URL: https://${{ secrets.SERVER_HOST }}"
+
+      - name: Deploy Failed
+        if: failure()
+        run: |
+          echo "Deploy failed!"
+          exit 1

@@ -1,0 +1,1165 @@
+{
+  "common": {
+    "title": "Clear Sight",
+    "description": "Quản lý. Thực thi. Chứng minh.",
+    "language": "Ngôn ngữ",
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt",
+    "thai": "Tiếng Thái",
+    "verifiedData": "Dữ liệu đã xác minh",
+    "clearSightDisclaimer": "ClearSight chỉ cung cấp phân tích thực tế và không đưa ra quyết định tín dụng",
+    "close": "Đóng",
+    "retry": "Thử lại",
+    "filters": "Bộ lọc",
+    "day": "ngày",
+    "days": "ngày",
+    "addNote": "Thêm ghi chú"
+  },
+  "sidebar": {
+    "analysis": "Phân tích: Dấu hiệu tín dụng",
+    "reviewExtraction": "Xem xét trích xuất",
+    "userManagement": "Quản lý người dùng",
+    "auditLogs": "Báo cáo hoạt động",
+    "settings": "Cài đặt",
+    "institution": "Tổ chức",
+    "SSOConfiguration": "Cấu hình SSO",
+    "documentRetention": "Quản lý lưu trữ",
+    "retentionPolicy": "Chính sách lưu trữ",
+    "decisionReview": "Xem xét quyết định"
+  },
+  "documentType": {
+    "title": "Loại tài liệu",
+    "placeholder": "Chọn loại tài liệu",
+    "all": "Tất cả",
+    "financialStatement": "Báo cáo tài chính",
+    "bankStatement": "Sao kê ngân hàng",
+    "fraudAndAnomaly": "Lừa đảo & Dữ liệu bất thường",
+    "financialAnalysis": "Phân tích tài chính"
+  },
+  "documentStatus": {
+    "all": "Tất cả",
+    "pending": "Đang chờ xác nhận",
+    "processing": "Đang trích xuất dữ liệu...",
+    "review": "Sẵn sàng xem xét",
+    "completed": "Hoàn thành",
+    "approved": "Đã xác nhận",
+    "failed": "Thất bại",
+    "unknown": "Không xác định"
+  },
+  "header": {
+    "menu": "Menu",
+    "profile": "Hồ sơ",
+    "settings": "Cài đặt",
+    "logout": "Đăng xuất"
+  },
+  "heading": {
+    "userManagement": "Quản lý người dùng",
+    "userList": "Danh sách người dùng",
+    "userManagementSubTitle": "Quản lý người dùng và vai trò của họ"
+  },
+  "title": {
+    "search": "Tìm kiếm",
+    "date": "Ngày",
+    "lastUpdated": "Cập nhật gần nhất",
+    "fy": "Năm tài chính",
+    "category": "Danh mục",
+    "selectRole": "Chọn vai trò",
+    "addUser": "Thêm người dùng",
+    "addNewUser": "Thêm người dùng mới",
+    "editUser": "Chỉnh sửa người dùng",
+    "deleteUser": "Xóa người dùng",
+    "createdDate": "Ngày tạo",
+    "deleteUserConfirmation": "Bạn có chắc chắn muốn xóa {{userName}}? Hành động này không thể hoàn tác.",
+    "deleteUserDescription": "Bạn có chắc chắn muốn xóa '{{email}}'? Hành động này không thể hoàn tác.",
+    "selectStatus": "Chọn trạng thái",
+    "resetPassword": "Đặt lại mật khẩu:",
+    "sendResetLinkViaEmail": "Gửi liên kết đặt lại qua email",
+    "createTemporaryPassword": "Tạo mật khẩu tạm thời",
+    "temporaryPassword": "Mật khẩu tạm thời",
+    "passwordNote": "Lưu ý: Mật khẩu chỉ được hiển thị một lần. Sau khi đóng cửa sổ, không thể xem lại.",
+    "userName": "Tên người dùng",
+    "phoneNumber": "Số điện thoại",
+    "email": "Email",
+    "role": "Vai trò",
+    "status": "Trạng thái",
+    "label": {
+      "userName": "Tên người dùng",
+      "phoneNumber": "Số điện thoại",
+      "createdDate": "Ngày tạo"
+    },
+    "validation": {
+      "userNameRequired": "Vui lòng nhập tên người dùng",
+      "userNameMaxLength": "Tên người dùng không được vượt quá 255 ký tự",
+      "phoneRequired": "Vui lòng nhập số điện thoại",
+      "phoneInvalid": "Định dạng số điện thoại không hợp lệ. Vui lòng nhập số điện thoại hợp lệ (8-15 chữ số)",
+      "emailRequired": "Vui lòng nhập email",
+      "emailInvalid": "Định dạng email không hợp lệ",
+      "roleRequired": "Vui lòng chọn vai trò"
+    }
+  },
+  "login": {
+    "title": "Đăng nhập",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "loginButton": "Đăng nhập",
+    "loggingIn": "Đang đăng nhập...",
+    "loginFailed": "Đăng nhập thất bại. Vui lòng thử lại.",
+    "pleaseEnterAllInformation": "Vui lòng nhập đầy đủ thông tin",
+    "loginSuccessful": "Đăng nhập thành công!",
+    "errorEmailRequired": "Vui lòng nhập địa chỉ email",
+    "errorEmailFormat": "Địa chỉ email không hợp lệ. Vui lòng không sử dụng khoảng trắng",
+    "errorEmailFormatInvalid": "Địa chỉ email không hợp lệ. Vui lòng nhập địa chỉ email hợp lệ",
+    "errorPasswordRequired": "Vui lòng nhập mật khẩu",
+    "errorPasswordMinLength": "Mật khẩu phải có ít nhất 8 ký tự",
+    "errorPasswordOnlySpaces": "Mật khẩu không thể chỉ chứa khoảng trắng",
+    "errorPasswordNoSpaces": "Mật khẩu không được chứa khoảng trắng",
+    "loginAccountInactive": "Tài khoản của bạn không hoạt động. Vui lòng liên hệ quản trị viên.",
+    "rememberMe": "Ghi nhớ đăng nhập",
+    "forgotPassword": "Quên mật khẩu?",
+    "loginIncorrectCredentials": "Email hoặc mật khẩu không chính xác. Vui lòng thử lại.",
+    "processingSSO": "Đang xử lý đăng nhập SSO...",
+    "pleaseWait": "Vui lòng đợi",
+    "redirectingToLogin": "Đang chuyển hướng đến trang đăng nhập...",
+    "loginSsoEnabled": "SSO đã được bật cho tổ chức này. Vui lòng sử dụng đăng nhập SSO."
+  },
+  "forgotPassword": {
+    "userNotFound": "Người dùng không tồn tại. Vui lòng thử lại.",
+    "title": "Đặt lại mật khẩu",
+    "description": "Nhập email của bạn, chúng tôi sẽ gửi link đặt lại mật khẩu đến email của bạn",
+    "email": "Email",
+    "sendLink": "Gửi link",
+    "sending": "Đang gửi...",
+    "success": "Link đặt lại mật khẩu đã được gửi đến email của bạn. Vui lòng kiểm tra hộp thư.",
+    "error": "Gửi link đặt lại mật khẩu thất bại. Vui lòng thử lại.",
+    "errorEmailRequired": "Vui lòng nhập địa chỉ email",
+    "errorEmailFormat": "Địa chỉ email không hợp lệ. Vui lòng không sử dụng khoảng trắng",
+    "errorEmailFormatInvalid": "Địa chỉ email không hợp lệ. Vui lòng nhập địa chỉ email hợp lệ",
+    "backToLogin": "Quay lại đăng nhập"
+  },
+  "resetPassword": {
+    "title": "Tạo mật khẩu mới",
+    "description": "Mật khẩu của bạn phải khác với mật khẩu đã sử dụng trước đó",
+    "newPassword": "Mật khẩu mới",
+    "confirmPassword": "Xác nhận mật khẩu mới",
+    "resetButton": "Đặt lại mật khẩu",
+    "resetting": "Đang đặt lại...",
+    "success": "Mật khẩu đã được đặt lại thành công. Đang chuyển đến trang đăng nhập",
+    "successTitle": "Cập nhật mật khẩu thành công",
+    "successDescription": "Mật khẩu đã được thay đổi thành công, bạn có thể đăng nhập lại bằng mật khẩu mới",
+    "backToLogin": "Quay lại đăng nhập",
+    "error": "Đặt lại mật khẩu thất bại. Vui lòng thử lại.",
+    "errorTokenMissing": "Token đặt lại mật khẩu không tồn tại. Vui lòng yêu cầu link đặt lại mới.",
+    "errorPasswordRequired": "Vui lòng nhập mật khẩu mới.",
+    "errorPasswordMinLength": "Mật khẩu phải có ít nhất 8 ký tự.",
+    "errorPasswordNoSpaces": "Mật khẩu không được chứa khoảng trắng.",
+    "errorConfirmPasswordRequired": "Vui lòng xác nhận mật khẩu mới.",
+    "errorPasswordMismatch": "Mật khẩu không khớp. Vui lòng thử lại.",
+    "invalidToken": "Token đặt lại mật khẩu không tồn tại. Vui lòng yêu cầu link đặt lại mới.",
+    "oldPassword": "Mật khẩu cũ",
+    "oldPasswordRequired": "Vui lòng nhập mật khẩu cũ.",
+    "errorOldPasswordRequired": "Vui lòng nhập mật khẩu cũ.",
+    "errorPasswordSameAsOld": "Mật khẩu mới phải khác với mật khẩu cũ.",
+    "userNotFound": "Người dùng không tồn tại. Vui lòng thử lại."
+  },
+  "searchFileName": "Tìm kiếm tên tệp",
+  "searchVendorName": "Tìm kiếm tên nhà cung cấp",
+  "totalItems": "Tổng {{count}} mục",
+  "goTo": "Đi đến",
+  "page": "trang",
+  "uploadedHistory": {
+    "title": "Lịch sử tải lên",
+    "welcome": "Chào mừng trở lại",
+    "totalDocuments": "Tổng {{count}} tài liệu",
+    "upload": "Tải lên",
+    "table": {
+      "fileName": "Tên tệp",
+      "status": "Trạng thái",
+      "documentType": "Loại",
+      "fyPeriod": "Năm tài chính/Kỳ",
+      "dateUpload": "Ngày tải lên",
+      "lastModified": "Ngày sửa đổi cuối cùng",
+      "action": "Hành động",
+      "uploadedBy": "Tải lên bởi",
+      "createdDate": "Ngày tạo",
+      "fraudDetection": "Phát hiện gian lận",
+      "approver": "Người phê duyệt",
+      "detectedDocumentType": "Loại tài liệu phát hiện"
+    },
+    "status": {
+      "title": "Trạng thái",
+      "placeholder": "Chọn trạng thái",
+      "all": "Tất cả",
+      "processing": "Đang xử lý",
+      "review": "Đang xem xét"
+    },
+    "documentType": {
+      "title": "Loại tài liệu",
+      "placeholder": "Chọn loại tài liệu",
+      "all": "Tất cả",
+      "financialStatement": "Báo cáo tài chính",
+      "bankStatement": "Sao kê ngân hàng",
+      "fraudAndAnomaly": "Lừa đảo & Dữ liệu bất thường",
+      "financialAnalysis": "Phân tích tài chính"
+    },
+    "dateUpload": {
+      "title": "Ngày tải lên",
+      "placeholder": "Chọn ngày tải lên",
+      "selectDate": "Chọn ngày"
+    },
+    "menu": {
+      "open": "Mở menu",
+      "view": "Xem",
+      "viewDisabled": "Xem (không khả dụng)",
+      "download": "Tải xuống",
+      "delete": "Xóa",
+      "retry": "Thử lại",
+      "edit": "Chỉnh sửa"
+    },
+    "uploading": {
+      "uploading": "Đang tải lên...",
+      "success": "Tải lên thành công {{count}} tệp",
+      "error": "Tải lên thất bại"
+    },
+    "modal": {
+      "title": "Tải lên tài liệu",
+      "description": "Thêm báo cáo tài chính và sao kê ngân hàng tại đây, và bạn có thể tải lên tối đa 50 tệp",
+      "drag": "Kéo và thả tệp(hoặc)",
+      "browse": "tìm kiếm",
+      "onlySupport": "Chỉ hỗ trợ .pdf, .xlsx và .csv",
+      "maxFilesError": "Chỉ được tải lên tối đa 50 tệp",
+      "invalidFileTypeError": "Định dạng tệp không được hỗ trợ. Vui lòng tải lên tệp hợp lệ."
+    },
+    "consent": {
+      "title": "PDPA Consent",
+      "description": "Before uploading documents, you must accept the data processing terms. Data will be processed for parsing, classification, and stored per retention policy",
+      "content1": "Retention: configurable by Admin (default 12 months)",
+      "content2": "Personal data will be masked when required",
+      "content3": "You can withdraw consent in Account settings — this may delete uploaded data",
+      "acceptContinue": "Accept & Continue",
+      "cancel": "Cancel"
+    },
+    "zipPassword": {
+      "title": "Mật khẩu tệp Zip",
+      "description": "Vui lòng chỉ định nếu tệp Zip của bạn được bảo vệ bằng mật khẩu và nhập mật khẩu nếu cần",
+      "hasPassword": "Tệp này có mật khẩu",
+      "password": "Mật khẩu",
+      "passwordPlaceholder": "Nhập mật khẩu",
+      "passwordRequired": "Vui lòng nhập mật khẩu cho tệp Zip đã chọn",
+      "confirm": "Tiếp theo",
+      "cancel": "Hủy"
+    },
+    "processingQueue": {
+      "title": "Hàng đợi xử lý",
+      "description": "Các tệp vẫn đang tải lên hoặc đang được trích xuất. Meta dữ liệu (nhà cung cấp/loại/năm) có thể chưa sẵn sàng..."
+    },
+    "processedDocuments": {
+      "title": "Các tài liệu đã xử lý",
+      "description": "Chỉ các tệp đã hoàn thành trích xuất (Xem xét / Phê duyệt) được nhóm theo Nhà cung cấp → Loại tài liệu → Năm/Kỳ..."
+    },
+    "viewDetails": "Xem chi tiết",
+    "deleteDocument": {
+      "title": "Xóa tài liệu",
+      "confirmation": "Bạn có chắc chắn muốn xóa \"{{fileName}}\"? Hành động này không thể hoàn tác.",
+      "success": "Xóa tài liệu thành công",
+      "error": "Xóa tài liệu thất bại",
+      "deleting": "Đang xóa..."
+    },
+    "retryDocument": {
+      "title": "Tải lên tài liệu",
+      "confirmation": "Bạn có chắc chắn muốn tải lên tài liệu \"{{fileName}}\"?",
+      "success": "Tải lên tài liệu thành công",
+      "error": "Tải lên tài liệu thất bại",
+      "retrying": "Đang thử lại...",
+      "confirm": "Thử lại"
+    },
+    "doc": "tài liệu",
+    "docs": "tài liệu",
+    "uploadError": {
+      "title": "Lỗi tải lên",
+      "errors": "Lỗi",
+      "files": "Tệp",
+      "duplicate": "Trùng lặp",
+      "successful": "Thành công",
+      "failed": "Thất bại",
+      "close": "Đóng",
+      "fileAlreadyExists": "{{fileName}}: Tệp đã tồn tại trong tổ chức"
+    }
+  },
+  "financialStatement": {
+    "subHeader": {
+      "title": "Báo cáo tài chính",
+      "titleAction": "Phân tích tổng hợp",
+      "preview": "Xem trước",
+      "export": "Xuất"
+    },
+    "exportSuccess": "Xuất báo cáo thành công",
+    "exportError": "Không thể xuất báo cáo",
+    "analytics": {
+      "vendorName": "Tên nhà cung cấp",
+      "userId": "ID người dùng",
+      "reason": "Lý do",
+      "financialYear": "Năm tài chính",
+      "finalResult": "Kết quả cuối cùng",
+      "currency": "Tiền tệ",
+      "status": "Trạng thái",
+      "analytics": "Phân tích",
+      "uploadedBy": "Tải lên bởi",
+      "polling": "Đang xử lý...",
+      "fetchingAnalysis": "Đang lấy dữ liệu phân tích...",
+      "analysisError": "Phân tích thất bại. Vui lòng thử lại.",
+      "cannotBeCalculated": "Không thể tính toán",
+      "retry": "Thử lại phân tích",
+      "retrying": "Đang thử lại...",
+      "retrySuccess": "Bắt đầu thử lại phân tích thành công",
+      "retryError": "Không thể thử lại phân tích",
+      "extractedData": "Dữ liệu đã trích xuất",
+      "financialRatioAnalysis": "Phân tích tỷ lệ tài chính",
+      "description": "Phân tích tổng hợp của {{count}} tỷ lệ tài chính quan trọng trong 6 danh mục. Nhấn vào biểu tượng thông tin trên mỗi thẻ để xem công thức tính toán.",
+      "liquidityRatios": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+      "solvencyRatios": "Tỷ lệ thanh khoản (Thanh khoản dài hạn)",
+      "profitabilityRatios": "Tỷ lệ lợi nhuận",
+      "efficiencyRatios": "Tỷ lệ hiệu quả",
+      "cashFlowRatios": "Tỷ lệ dòng tiền",
+      "edit": "Chỉnh sửa",
+      "bidderSpecificCriticalRatios": "Tỷ lệ quan trọng cho người bán",
+      "item": {
+        "currentRatio": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "quickRatio": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "cashRatio": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "debtToEquityRatio": "Tỷ lệ nợ trên vốn chủ sở hữu",
+        "debtToAssetsRatio": "Tỷ lệ nợ trên tài sản",
+        "interestCoverageRatio": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "grossProfitMargin": "Tỷ lệ lợi nhuận (Lợi nhuận trước thuế và lãi vay)",
+        "operatingCashFlowRatio": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "cashFlowMargin": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "freeCashFlow": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "workingCapital": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "cashConversionCycle": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "currentLiabilityCoverage": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "timesInterestEarned": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "timesInterestEarnedRatio": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "dupontRoe": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "breakdown": "Tỷ lệ thanh khoản (Thanh khoản ngắn hạn)",
+        "day": "ngày",
+        "days": "ngày",
+        "status": {
+          "warning": "Cảnh báo",
+          "failed": "Thất bại",
+          "passed": "Thành công"
+        }
+      },
+      "interpretation": {
+        "title": "Giải thích",
+        "failedRatiosAnalysis": "Phân tích tỷ lệ thất bại",
+        "positiveIndicators": "Chỉ số tốt",
+        "anomaliesAndFlags": "Dữ liệu bất thường",
+        "goingConcernAssessment": "Phân tích tỷ lệ thanh khoản (Thanh khoản ngắn hạn)"
+      },
+      "recommendation": {
+        "title": "Gợi ý cuối cùng",
+        "conditions": "Điều kiện",
+        "rationale": "Lý do",
+        "recommendation": "Gợi ý"
+      },
+      "saveSuccess": "Dữ liệu đã được ghi đè thành công.",
+      "saveError": "Không thể ghi đè dữ liệu. Vui lòng thử lại.",
+      "previewAndEditExtractedData": "Xem & Chỉnh sửa Dữ liệu Trích xuất",
+      "unableToRetrieveAnalysisData": "Không thể lấy dữ liệu phân tích. Vui lòng nhấn nút tải lại để thử lại",
+      "loadingAnalysisData": "Đang tải dữ liệu phân tích...",
+      "reloading": "Đang tải lại...",
+      "reload": "Tải lại",
+      "analysis": "Phân tích",
+      "rationale": "Lý do",
+      "finalResultOptions": {
+        "medium": "Trung bình",
+        "weak": "Yếu",
+        "strong": "Mạnh"
+      },
+      "dataSourcesAudit": {
+        "title": "Kiểm toán Nguồn Dữ liệu và Giả định",
+        "financial_statements_review": "Rà soát Báo cáo Tài chính",
+        "audit_opinion_and_qualifications": "Ý kiến Kiểm toán và Điều kiện",
+        "peer_and_industry_data_sources": "Nguồn Dữ liệu Ngành và Đối thủ",
+        "key_assumptions_and_adjustments": "Giả định Chính và Điều chỉnh",
+        "management_competence_and_track_record": "Năng lực Quản lý và Thành tích",
+        "related_party_transactions_analysis": "Phân tích Giao dịch Bên Liên quan",
+        "governance_and_internal_controls": "Quản trị và Kiểm soát Nội bộ",
+        "liquidity_analysis": "Phân tích Thanh khoản",
+        "solvency_analysis": "Phân tích Khả năng Thanh toán",
+        "working_capital_analysis": "Phân tích Vốn Lưu động",
+        "profitability_analysis": "Phân tích Khả năng Sinh lời",
+        "efficiency_analysis": "Phân tích Hiệu quả",
+        "cashflow_analysis": "Phân tích Dòng tiền",
+        "collateral_strength_evaluation": "Đánh giá Sức mạnh Tài sản Thế chấp",
+        "borrowing_base_calculation": "Tính toán Cơ sở Vay",
+        "existing_liens": "Quyền Thế chấp Hiện có",
+        "covenant_compliance": "Tuân thủ Điều khoản",
+        "contingent_and_legal_exposures": "Rủi ro Dự phòng và Pháp lý",
+        "customer_concentration": "Tập trung Khách hàng",
+        "earnings_quality_and_red_flags": "Chất lượng Thu nhập và Cảnh báo",
+        "vertical_analysis": "Phân tích Dọc",
+        "industry_average_benchmarking": "So sánh với Trung bình Ngành",
+        "direct_peer_comparison": "So sánh Đối thủ Trực tiếp",
+        "going_concern_assessment": "Đánh giá Hoạt động Liên tục",
+        "risk_scoring_summary": "Tóm tắt Điểm Rủi ro",
+        "overall_analysis_result": "Kết quế Phân tích Tổng thể",
+        "credit_recommendation": "Khuyến nghị Tín dụng",
+        "macroeconomic_and_sector_outlook": "Triển vọng Kinh tế Vĩ mô và Ngành"
+      },
+      "managementAssessment": {
+        "title": "Đánh giá Quản lý và Quản trị",
+        "management_competence_and_track_record": "Năng lực Quản lý và Thành tích",
+        "related_party_transactions_analysis": "Phân tích Giao dịch Bên Liên quan",
+        "governance_and_internal_controls": "Quản trị và Kiểm soát Nội bộ"
+      },
+      "ratioAnalysis": {
+        "title": "Phân tích Tỷ lệ",
+        "liquidity_analysis": "Phân tích Thanh khoản",
+        "solvency_analysis": "Phân tích Khả năng Thanh toán",
+        "working_capital_analysis": "Phân tích Vốn Lưu động",
+        "profitability_analysis": "Phân tích Khả năng Sinh lời",
+        "efficiency_analysis": "Phân tích Hiệu quả",
+        "cashflow_analysis": "Phân tích Dòng tiền"
+      },
+      "collateralAnalysis": {
+        "title": "Phân tích Tài sản Thế chấp",
+        "collateral_strength_evaluation": "Đánh giá Sức mạnh Tài sản Thế chấp",
+        "borrowing_base_calculation": "Tính toán Cơ sở Vay",
+        "existing_liens": "Quyền Thế chấp Hiện có"
+      },
+      "notesBasedRiskAnalysis": {
+        "title": "Phân tích Rủi ro dựa trên Ghi chú",
+        "covenant_compliance": "Tuân thủ Điều khoản",
+        "contingent_and_legal_exposures": "Rủi ro Dự phòng và Pháp lý",
+        "customer_concentration": "Tập trung Khách hàng",
+        "earnings_quality_and_red_flags": "Chất lượng Thu nhập và Cảnh báo"
+      },
+      "trendAnalysis": {
+        "title": "Phân tích Xu hướng",
+        "vertical_analysis": "Phân tích Dọc"
+      },
+      "industryAveragePeerComparison": {
+        "title": "So sánh Trung bình Ngành và Đối thủ",
+        "macroeconomic_and_sector_outlook": "Triển vọng Kinh tế Vĩ mô và Ngành",
+        "industry_average_benchmarking": "So sánh với Trung bình Ngành",
+        "direct_peer_comparison": "So sánh Đối thủ Trực tiếp"
+      },
+      "finalConclusionAndRecommendation": {
+        "title": "Kết luận và Khuyến nghị Cuối cùng",
+        "going_concern_assessment": "Đánh giá Hoạt động Liên tục",
+        "risk_scoring_summary": "Tóm tắt Điểm Rủi ro",
+        "overall_analysis_result": "Kết quả Phân tích Tổng thể",
+        "credit_recommendation": "Khuyến nghị Tín dụng"
+      }
+    },
+    "extractedData": {
+      "balanceSheet": "Báo cáo tài chính",
+      "incomeStatement": "Báo cáo thu nhập",
+      "cashFlowStatement": "Báo cáo dòng tiền",
+      "category": "Danh mục",
+      "amount": "Số lượng"
+    },
+    "message": {
+      "loading": "Đang tải...",
+      "error": "Lỗi tải tài liệu. Vui lòng thử lại.",
+      "noData": "Không có dữ liệu để hiển thị",
+      "unsupportedFileType": "Loại tệp không được hỗ trợ để xem trước",
+      "failedToLoadCsv": "Tải tệp CSV thất bại",
+      "loadingPdf": "Đang tải PDF...",
+      "failedToLoadPdf": "Tải PDF thất bại"
+    },
+    "modalEditor": {
+      "title": "Chỉnh sửa Gợi ý cuối cùng",
+      "status": "Trạng thái",
+      "justification": "Lý do",
+      "save": "Lưu",
+      "cancel": "Hủy",
+      "edit": "Chỉnh sửa",
+      "failedRatiosAnalysis": "Phân tích tỷ lệ thất bại",
+      "reason": "Nguyên nhân",
+      "reasonRequired": "Nguyên nhân là bắt buộc",
+      "analysisRequired": "Phân tích là bắt buộc",
+      "rationaleRequired": "Lý do là bắt buộc",
+      "finalResultRequired": "Kết quả cuối cùng là bắt buộc",
+      "selectAnalysis": "Chọn Phân tích"
+    },
+    "consolidatedAnalysis": {
+      "noDocuments": "Không có tài liệu khả dụng để phân tích tổng hợp",
+      "createSuccess": "Phân tích tổng hợp được tạo thành công",
+      "createError": "Phân tích tổng hợp thất bại",
+      "deleteSuccess": "Phân tích tổng hợp đã được xóa thành công",
+      "deleteError": "Phân tích tổng hợp đã được xóa thất bại",
+      "deleteTitle": "Xóa Phân tích tổng hợp",
+      "deleteConfirmation": "Bạn có chắc chắn muốn xóa \"{{fileName}}\"? Hành động này không thể hoàn tác.",
+      "pleaseSelectAtLeastTwoDocuments": "Số lượng tối thiểu là 2 tài liệu",
+      "deleting": "Đang xóa...",
+      "waitingForData": "Đang chờ dữ liệu"
+    }
+  },
+  "bankStatement": {
+    "subHeader": {
+      "preview": "Xem trước",
+      "export": "Xuất"
+    },
+    "viewFullDetection": "Xem đầy đủ báo cáo phát hiện gian lận",
+    "exportSuccess": "Xuất file thành công",
+    "exportError": "Xuất file thất bại, vui lòng thử lại",
+    "information": {
+      "vendor": "Tên nhà cung cấp",
+      "bankName": "Tên ngân hàng",
+      "address": "Địa chỉ",
+      "accountNumber": "Số tài khoản",
+      "period": "Kỳ",
+      "currency": "Tiền tệ",
+      "uploadedBy": "Tải lên bởi",
+      "to": "đến"
+    },
+    "summary": {
+      "openingBalance": "Số dư đầu kỳ",
+      "closingBalance": "Số dư cuối kỳ",
+      "totalCredits": "Tổng số tiền ghi có",
+      "totalDebits": "Tổng số tiền ghi nợ",
+      "transactionCount": "Số lượng giao dịch",
+      "averageBalance": "Số dư trung bình"
+    },
+    "balanceMetrics": {
+      "title": "Chỉ số số dư",
+      "openingBalance": "Số dư đầu kỳ",
+      "closingBalance": "Số dư cuối kỳ",
+      "averageBalance": "Số dư trung bình",
+      "minBalance": "Số dư tối thiểu",
+      "totalDebits": "Tổng số tiền ghi nợ",
+      "totalCredits": "Tổng số tiền ghi có"
+    },
+    "cashFlow": {
+      "title": "Dòng tiền",
+      "totalInflow": "Tổng dòng tiền vào",
+      "totalOutflow": "Tổng dòng tiền ra",
+      "inflowOutflowRatio": "Tỷ lệ dòng tiền vào/ra"
+    },
+    "transactionCategories": {
+      "title": "Danh mục giao dịch",
+      "transaction": "giao dịch",
+      "transactions": "giao dịch",
+      "categories": {
+        "salary": "Lương",
+        "transfer": "Chuyển khoản",
+        "insurance": "Bảo hiểm",
+        "loanRepayment": "Trả nợ vay",
+        "utilities": "Tiện ích",
+        "others": "Khác",
+        "education": "Giáo dục",
+        "cashWithdrawal": "Rút tiền mặt"
+      }
+    },
+    "riskPatterns": {
+      "title": "Mẫu rủi ro",
+      "viewFullReport": "Xem báo cáo rủi ro đầy đủ",
+      "editTitle": "Chỉnh sửa Mẫu rủi ro",
+      "txnId": "Mã giao dịch:",
+      "category": "Danh mục",
+      "selectCategory": "Chọn danh mục",
+      "rationale": "Lý do",
+      "reason": "Nguyên nhân",
+      "reasonPlaceholder": "Nhập nguyên nhân...",
+      "categoryRequired": "Danh mục là bắt buộc",
+      "rationaleRequired": "Lý do là bắt buộc",
+      "reasonRequired": "Nguyên nhân là bắt buộc",
+      "saveSuccess": "Cập nhật mẫu rủi ro thành công",
+      "addNoteTitle": "Thêm ghi chú - {{riskType}}",
+      "addNoteLabel": "Thêm ghi chú",
+      "addNotePlaceholder": "Nhập ghi chú của bạn...",
+      "addNoteRequired": "Ghi chú là bắt buộc",
+      "patterns": {
+        "roundTripping": "CHUYỂN TIỀN VÒNG TRÒN",
+        "gamblingActivity": "HOẠT ĐỘNG CỜ BẠC"
+      },
+      "descriptions": {
+        "roundTripping": "Tiền được chuyển ra và quay trở lại trong vòng 24 giờ qua cùng một đối tác.",
+        "gamblingActivity": "Nhà cung cấp BET365 là một nền tảng cờ bạc trực tuyến đã biết."
+      }
+    },
+    "creditMetrics": {
+      "title": "Chỉ số tín dụng",
+      "bufferRatio": "Tỷ lệ đệm",
+      "cashVolatility": "Biến động tiền mặt"
+    },
+    "analytics": {
+      "fetchingAnalysis": "Đang lấy dữ liệu phân tích..."
+    },
+    "fraudQuickSummary": {
+      "title": "Tóm tắc rủi ro",
+      "mlAnomalies": "Dữ liệu bất thường từ ML",
+      "viewFullReport": "Xem báo cáo rủi ro đầy đủ",
+      "detectedFraudulentTransactions": "Phát hiện {{numberTransactions}} giao dịch gian lận"
+    },
+    "transactionTable": {
+      "txnId": "Mã giao dịch",
+      "total": "Tổng số",
+      "transaction": "Giao dịch",
+      "transactions": "Giao dịch",
+      "title": "Bảng giao dịch",
+      "totalTransactions": "Tổng số {{count}} giao dịch",
+      "totalTransaction": "Tổng số {{count}} giao dịch",
+      "date": "Ngày",
+      "description": "Mô tả",
+      "debit": "Ghi nợ",
+      "credit": "Ghi có",
+      "balance": "Số dư",
+      "category": "Loại"
+    }
+  },
+  "combinedAnalysis": {
+    "title": "Phân tích Tổng hợp",
+    "description": "Phân tích tổng hợp kết hợp hiệu suất tài chính và hành vi giao dịch ngân hàng để đưa ra quyết định tín dụng sáng suốt.",
+    "searchPlaceholder": "Tìm kiếm tên tệp",
+    "search": "Tìm kiếm...",
+    "createAnalysis": "Phân tích Tổng hợp",
+    "overallResult": "Kết quả Tổng thể",
+    "overallResultLabel": "Kết quả Tổng thể:",
+    "createdBy": "Tạo bởi",
+    "createdDate": "Ngày Tạo",
+    "minDocumentsRequired": "Cả hai loại tài liệu Sao kê ngân hàng và Báo cáo tài chính đều cần thiết cho phân tích tổng hợp",
+    "createSuccess": "Tạo phân tích tổng hợp thành công",
+    "createError": "Không thể tạo phân tích tổng hợp",
+    "vendor": "Nhà cung cấp:",
+    "export": "Xuất",
+    "exportSuccess": "Xuất file thành công.",
+    "exportError": "Không thể xuất file. Vui lòng thử lại."
+  },
+  "fraudAnomaly": {
+    "title": "Phát hiện rủi ro và dữ liệu bất thường",
+    "search": "Tìm kiếm tên nhà cung cấp",
+    "searchLabel": "Tìm kiếm:",
+    "noResults": "Không tìm thấy kết quả",
+    "detail": {
+      "title": "Phát hiện gian lận",
+      "vendor": "Nhà cung cấp",
+      "bankName": "Tên ngân hàng",
+      "address": "Địa chỉ",
+      "accountNumber": "Số tài khoản",
+      "period": "Kỳ",
+      "currency": "Tiền tệ",
+      "fy": "Năm tài chính",
+      "fraudTransactions": "Giao dịch gian lận",
+      "txnId": "Mã giao dịch",
+      "date": "Ngày",
+      "description": "Mô tả",
+      "debit": "Ghi nợ",
+      "credit": "Ghi có",
+      "flag": "Cờ",
+      "status": "Trạng thái",
+      "statusFalsePositive": "Dương tính giả",
+      "statusFraud": "Gian lận",
+      "action": "Hành động",
+      "view": "Xem chi tiết",
+      "reason": "Lý do",
+      "confirmBy": "Xác nhận bởi",
+      "modal": {
+        "title": "Chi tiết giao dịch",
+        "close": "Đóng",
+        "falsePositive": "Dương tính giả",
+        "confirmFraud": "Xác nhận gian lận",
+        "falsePositiveTitle": "Dương tính giả",
+        "confirmFraudTitle": "Xác nhận gian lận",
+        "confirmFraudMessage": "Bạn có chắc chắn giao dịch này là gian lận?",
+        "reasonPlaceholder": "Ví dụ: Giao dịch là đến nhà hàng, không phải sòng bạc",
+        "reasonRequired": "Vui lòng nhập lý do",
+        "cancel": "Hủy",
+        "confirm": "Xác nhận",
+        "processing": "Đang xử lý..."
+      },
+      "updateSuccess": "Cập nhật trạng thái giao dịch thành công",
+      "updateSuccessFalsePositive": "Đánh dấu giao dịch là dương tính giả thành công",
+      "updateSuccessFraud": "Xác nhận giao dịch là gian lận thành công",
+      "updateError": "Không thể cập nhật trạng thái giao dịch"
+    }
+  },
+  "decisionReview": {
+    "title": "Đánh giá quyết định",
+    "search": "Tìm kiếm tên nhà cung cấp",
+    "noResults": "Không tìm thấy kết quả",
+    "table": {
+      "fileName": "Tên file",
+      "aiDecision": "Quyết định AI",
+      "humanDecision": "Quyết định con người",
+      "overriddenBy": "Được ghi đè bởi",
+      "overriddenAt": "Được ghi đè vào",
+      "action": "Hành động",
+      "view": "Xem chi tiết"
+    },
+    "status": {
+      "label": "Trạng thái",
+      "all": "Tất cả",
+      "recommended": "Được đề xuất",
+      "recommendedWithConditions": "Được đề xuất có điều kiện",
+      "notRecommended": "Không được đề xuất",
+      "recommended-api": "Được đề xuất",
+      "recommended-with-conditions-api": "Được đề xuất có điều kiện",
+      "not-recommended-api": "Không được đề xuất",
+      "strong": "Mạnh",
+      "medium": "Trung bình",
+      "weak": "Yếu"
+    },
+    "detail": {
+      "vendor": "Nhà cung cấp",
+      "overriddenAt": "Được ghi đè vào",
+      "complianceOfficer": "Nhân viên tuân thủ",
+      "aiRecommendation": "Đề xuất AI",
+      "yourOverride": "Ghi đè của bạn",
+      "conditions": "Điều kiện",
+      "rationale": "Lý do",
+      "failedRatiosAnalysis": "Phân tích tỷ lệ thất bại",
+      "positiveIndicators": "Chỉ số tích cực",
+      "uploadedBy": "Tải lên bởi",
+      "financialYear": "Năm tài chính",
+      "currency": "Tiền tệ",
+      "status": "Trạng thái",
+      "overriddenBy": "Được ghi đè bởi"
+    }
+  },
+  "documentDetail": {
+    "header": {
+      "title": "Xem trước & Chỉnh sửa Dữ liệu đã trích xuất"
+    },
+    "documentType": {
+      "financialStatement": "Báo cáo tài chính",
+      "bankStatement": "Sao kê ngân hàng",
+      "consolidatedAnalyze": "Phân tích tổng hợp",
+      "combinedAnalyze": "Phân tích tổng hợp kết hợp",
+      "financialAnalysis": "Phân tích tài chính",
+      "uploaded": "Đã tải lên"
+    },
+    "footer": {
+      "back": "Quay lại",
+      "cancel": "Hủy",
+      "saving": "Đang lưu...",
+      "saveAndApprove": "Lưu & Phê duyệt",
+      "save": "Lưu",
+      "approve": "Phê duyệt",
+      "saveAndApproveSuccess": "Lưu & Phê duyệt thành công",
+      "saveSuccess": "Lưu thành công"
+    },
+    "extractedData": {
+      "documentInformation": "Thông tin tài liệu",
+      "table": "Bảng",
+      "noData": "Không có dữ liệu",
+      "enterValue": "Nhập giá trị",
+      "maxLengthError": "Giá trị nhập vào có độ dài tối đa 20 ký tự",
+      "fields": {
+        "vendorName": "Tên nhà cung cấp",
+        "documentDate": "Ngày tài liệu",
+        "currency": "Tiền tệ",
+        "accountName": "Tên tài khoản",
+        "accountHolderAddress": "Địa chỉ chủ tài khoản",
+        "accountCurrency": "Loại tiền tệ tài khoản",
+        "endingBalance": "Số dư cuối kỳ",
+        "accountNumber": "Số tài khoản",
+        "bankName": "Tên ngân hàng",
+        "beginningBalance": "Số dư đầu kỳ"
+      },
+      "tableColumns": {
+        "date": "Ngày",
+        "description": "Mô tả",
+        "debit": "Ghi nợ",
+        "credit": "Ghi có",
+        "balance": "Số dư",
+        "category": "Loại",
+        "amount": "Số tiền",
+        "score": "Điểm"
+      }
+    },
+    "preview": {
+      "title": "Bản gốc (xem trước)",
+      "pdfPreview": "Xem trước PDF",
+      "excelPreview": "Xem trước Excel",
+      "downloadExcelFile": "Tải xuống tệp Excel",
+      "loadingCsv": "Đang tải tệp CSV...",
+      "noDataToDisplay": "Không có dữ liệu để hiển thị",
+      "unsupportedFileType": "Loại tệp không được hỗ trợ để xem trước",
+      "failedToLoadCsv": "Tải tệp CSV thất bại",
+      "loadingPdf": "Đang tải PDF...",
+      "failedToLoadPdf": "Tải PDF thất bại",
+      "pdfAccessDenied": "Không có quyền truy cập file PDF (403)",
+      "pdfNotFound": "Không tìm thấy file PDF (404)",
+      "zoomIn": "Phóng to",
+      "zoomOut": "Thu nhỏ",
+      "resetZoom": "Đặt lại thu phóng",
+      "page": "Trang",
+      "of": "của",
+      "goToPreviousPage": "Đi đến trang trước",
+      "goToNextPage": "Đi đến trang sau"
+    }
+  },
+  "button": {
+    "submit": "Gửi",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "add": "Thêm",
+    "previous": "Trước",
+    "next": "Tiếp theo",
+    "update": "Cập nhật",
+    "create": "Tạo"
+  },
+  "form": {
+    "saving": "Đang lưu..."
+  },
+  "dataTable": {
+    "search": "Tìm kiếm tài liệu...",
+    "page": "Trang",
+    "of": "của",
+    "noResults": "Không có kết quả"
+  },
+  "auditLogs": {
+    "subTitle": "Quản lý nhật ký hoạt động",
+    "export": "Xuất",
+    "filters": {
+      "search": "Tìm kiếm",
+      "date": "Ngày",
+      "datePlaceholder": "Chọn ngày",
+      "dateFrom": "Từ ngày",
+      "dateFromPlaceholder": "Chọn ngày bắt đầu",
+      "dateTo": "Đến ngày",
+      "dateToPlaceholder": "Chọn ngày kết thúc",
+      "user": "Người dùng",
+      "userPlaceholder": "Chọn người dùng",
+      "actionType": "Loại hành động",
+      "actionTypePlaceholder": "Chọn loại hành động",
+      "all": "Tất cả"
+    },
+    "exportSuccess": "Xuất thành công",
+    "exportFailed": "Xuất thất bại",
+    "exporting": "Đang xuất...",
+    "table": {
+      "timestamp": "Thời gian",
+      "user": "Người dùng",
+      "role": "Vai trò",
+      "actionType": "Loại hành động",
+      "description": "Mô tả",
+      "ipDevice": "IP / Thiết bị"
+    },
+    "description": {
+      "showMore": "Xem thêm",
+      "showLess": "Thu gọn",
+      "action": "Hành động",
+      "documentId": "ID tài liệu",
+      "fileName": "Tên tệp",
+      "changes": "Thay đổi",
+      "field": "Trường",
+      "oldValue": "Giá trị cũ",
+      "newValue": "Giá trị mới",
+      "noReasonFound": "Không tìm thấy phần nào có lý do",
+      "totalChanges": "Tổng số thay đổi",
+      "changeTypes": "Loại thay đổi",
+      "metadata": "Siêu dữ liệu",
+      "modified": "Đã sửa đổi",
+      "added": "Đã thêm",
+      "deleted": "Đã xóa"
+    }
+  },
+  "documentRetention": {
+    "subTitle": "Quản lý lưu trữ là quá trình quản lý thời gian lưu trữ tài liệu trong hệ thống.",
+    "noDataMessage": "Không tìm thấy dữ liệu hoặc chưa thiết lập chính sách lưu trữ.",
+    "policy": {
+      "title": "Chính sách lưu trữ",
+      "description": "Tài liệu sẽ được tự động xóa sau 365 ngày theo cài đặt tuân thủ của tổ chức. Cảnh báo sắp hết hạn được hiển thị 90 ngày trước khi xóa."
+    },
+    "filters": {
+      "searchPlaceholder": "Tìm tên tệp",
+      "documentType": "Loại tài liệu",
+      "uploadedBy": "Được tải lên bởi",
+      "daysRemaining": "Số ngày còn lại",
+      "all": "Tất cả",
+      "expiringVerySoon": "1-30 ngày",
+      "expiringSoon": "30-90 ngày",
+      "safe": "90+ ngày"
+    },
+    "table": {
+      "fileName": "Tên tệp",
+      "documentType": "Loại tài liệu",
+      "vendorName": "Tên nhà cung cấp",
+      "uploadedBy": "Được tải lên bởi",
+      "dateUpload": "Ngày tải lên",
+      "autoDeletionSchedule": "Lịch xóa tự động",
+      "daysRemaining": "Số ngày còn lại"
+    },
+    "legend": {
+      "title": "Số ngày còn lại"
+    }
+  },
+  "institution": {
+    "title": "Cài đặt tổ chức",
+    "subTitle": "Cấu hình thông tin cơ bản, chi tiết liên hệ và tùy chọn hệ thống của tổ chức...",
+    "editSettings": "Chỉnh sửa cài đặt",
+    "saveSettings": "Lưu cài đặt",
+    "cancel": "Hủy",
+    "saveSuccess": "Lưu cài đặt tổ chức thành công",
+    "saveError": "Không thể lưu cài đặt tổ chức",
+    "loadError": {
+      "title": "Lỗi tải cài đặt tổ chức",
+      "description": "Không thể tải cài đặt tổ chức"
+    },
+    "idRequired": "ID tổ chức là bắt buộc",
+    "basicInformation": {
+      "title": "Thông tin cơ bản",
+      "fullName": "Tên đầy đủ tổ chức",
+      "fullNamePlaceholder": "Nhập tên đầy đủ tổ chức",
+      "shortName": "Tên viết tắt / Từ viết tắt",
+      "shortNamePlaceholder": "Nhập tên viết tắt hoặc từ viết tắt",
+      "code": "Mã tổ chức (Tenant ID)",
+      "codeHelper": "Mã định danh hệ thống duy nhất cho tổ chức của bạn"
+    },
+    "logo": {
+      "title": "Logo tổ chức",
+      "uploading": "Đang tải lên logo...",
+      "helper": "Tải lên logo tổ chức của bạn (PNG, JPG, SVG)",
+      "uploadSuccess": "Tải lên logo thành công",
+      "uploadError": "Không thể tải lên logo",
+      "uploadButtonLabel": "Nhấn để tải lên logo tổ chức",
+      "formatHelper": "Định dạng PNG hoặc SVG, tối đa 5MB. Khuyến nghị: 200x200px"
+    },
+    "contactInformation": {
+      "title": "Thông tin liên hệ",
+      "email": "Email liên hệ chính",
+      "emailPlaceholder": "Nhập email liên hệ chính",
+      "emailHelper": "Email cho thông báo hệ thống, đặt lại mật khẩu và cảnh báo",
+      "phone": "Số điện thoại liên hệ chính",
+      "phonePlaceholder": "Nhập số điện thoại liên hệ chính"
+    },
+    "address": {
+      "title": "Địa chỉ (Trụ sở chính)",
+      "streetAddress": "Địa chỉ đường",
+      "streetAddressPlaceholder": "Nhập địa chỉ đường",
+      "city": "Thành phố",
+      "cityPlaceholder": "Nhập thành phố",
+      "postalCode": "Mã bưu điện",
+      "postalCodePlaceholder": "Nhập mã bưu điện",
+      "country": "Quốc gia",
+      "countryPlaceholder": "Nhập quốc gia"
+    },
+    "taxInformation": {
+      "title": "Thông tin thuế",
+      "taxId": "Số định danh thuế",
+      "taxIdPlaceholder": "Nhập số định danh thuế",
+      "taxIdHelper": "Số định danh thuế 10-13 chữ số"
+    },
+    "defaultSettings": {
+      "title": "Cài đặt mặc định",
+      "language": "Ngôn ngữ mặc định",
+      "languagePlaceholder": "Chọn ngôn ngữ",
+      "languageHelper": "Ngôn ngữ giao diện mặc định cho người dùng mới",
+      "currency": "Tiền tệ mặc định",
+      "currencyPlaceholder": "Chọn tiền tệ",
+      "currencyHelper": "Tiền tệ mặc định cho giao dịch tài chính",
+      "timezone": "Múi giờ mặc định",
+      "timezonePlaceholder": "Chọn múi giờ",
+      "timezoneHelper": "Múi giờ mặc định cho người dùng mới"
+    }
+  },
+  "retentionPolicy": {
+    "title": "Cài đặt Lưu trữ & Xóa Tenant",
+    "subTitle": "Cấu hình thời gian lưu trữ tài liệu đã tải lên và dữ liệu phái sinh. Bao gồm kiểm soát kiểm toán và ngoại lệ.",
+    "editSettings": "Chỉnh sửa cài đặt",
+    "saveSuccess": "Lưu cài đặt lưu trữ thành công",
+    "resetSuccess": "Đặt lại cài đặt lưu trữ thành công",
+    "saveError": "Không thể lưu cài đặt lưu trữ",
+    "loadError": "Không thể lấy cài đặt lưu trữ",
+    "alert": {
+      "title": "Quan trọng: Chính sách Lưu trữ Dữ liệu",
+      "description": "Dữ liệu đã xóa không thể khôi phục. Đảm bảo thời gian lưu trữ tuân thủ các yêu cầu pháp lý và quy định của tổ chức trước khi bật xóa tự động."
+    },
+    "retentionPeriods": {
+      "title": "Thời gian lưu trữ",
+      "uploadedDocuments": {
+        "title": "Tài liệu đã tải lên",
+        "subTitle": "Thời gian lưu trữ (ngày)"
+      },
+      "derivedData": {
+        "title": "Dữ liệu phái sinh",
+        "subTitle": "Thời gian lưu trữ (ngày)"
+      },
+      "auditLogs": {
+        "title": "Nhật ký kiểm toán",
+        "subTitle": "Thời gian lưu trữ (ngày)"
+      },
+      "helper": "Khoảng {{years}} năm",
+      "enterDays": "Nhập số ngày"
+    },
+    "automaticDeletion": {
+      "title": "Xóa tự động",
+      "enableTitle": "Bật Xóa tự động",
+      "enableDescription": "Tự động xóa dữ liệu vượt quá thời gian lưu trữ",
+      "srOnly": "Bật Xóa tự động",
+      "notificationHelper": "Gửi thông báo email về việc xóa theo lịch trình cho Nhân viên Tuân thủ và Nhân viên Tín dụng đã tải lên tài liệu"
+    },
+    "buttons": {
+      "cancel": "Hủy",
+      "resetToDefaults": "Đặt lại về Mặc định",
+      "saveSettings": "Lưu cài đặt"
+    }
+  },
+  "reviewExtraction": {
+    "pageSubTitle": "Xem xét dữ liệu trích xuất về độ chính xác và đầy đủ. Phê duyệt xác nhận dữ liệu là cuối cùng và sẵn sàng cho phân tích",
+    "uploadSubTitle": "Bước này chỉ theo dõi việc tải lên. Tài liệu phải được xem xét và phê duyệt trước khi phân tích",
+    "viewDetails": "Xem chi tiết",
+    "reviewDocuments": "Xem xét tài liệu",
+    "uploadDocument": "Tải lên tài liệu",
+    "uploadedFiles": "Tệp đã tải lên",
+    "confirmExtract": "Xác nhận & Trích xuất",
+    "goToReview": "Đi đến Xem xét",
+    "confirmExtractDescription": "Bạn có chắc chắn muốn xác nhận và trích xuất tài liệu này?",
+    "deleteDocument": "Xóa tài liệu",
+    "deleteDocumentDescription": "Bạn có chắc chắn muốn xóa tài liệu này? Hành động này không thể hoàn tác.",
+    "uploadedFilesNoData": "Danh sách tài liệu đã tải lên sẽ hiển thị tại đây",
+    "searchByVendorName": "Tìm theo tên nhà cung cấp",
+    "noResultsSearch": "Không tìm thấy kết quả cho tìm kiếm của bạn",
+    "noResultsUpload": "Tải tài liệu lên ở bước Tải lên. Sau khi trích xuất hoàn tất, công ty sẽ hiển thị tại đây để xem xét.",
+    "noFinancialStatementExtraction": "Không tìm thấy trích xuất báo cáo tài chính",
+    "noBankStatementExtraction": "Không tìm thấy trích xuất sao kê ngân hàng",
+    "documentsToReview": "{{count}} tài liệu cần xem xét",
+    "approveDataGenerateAnalysis": "Phê duyệt dữ liệu & Tạo phân tích",
+    "generateAnalysis": "Tạo phân tích",
+    "approveModalIntro": "Bạn sắp phê duyệt dữ liệu trích xuất cho tài liệu này. Sau khi phê duyệt:",
+    "extractedDataLocked": "Dữ liệu trích xuất sẽ bị khóa và không thể chỉnh sửa",
+    "correctionRequireNewExtraction": "Mọi chỉnh sửa sẽ yêu cầu phiên bản trích xuất mới",
+    "bankAnalysisGenerated": "Phân tích ngân hàng sẽ được tạo tự động",
+    "financialAnalysisGenerated": "Phân tích tài chính sẽ được tạo tự động",
+    "pleaseConfirmReviewed": "Vui lòng xác nhận dữ liệu đã được xem xét và chính xác.",
+    "viewAnalysis": "Xem phân tích",
+    "generatingAnalysisMessage": "Chúng tôi đang tạo phân tích dựa trên các tài liệu đã phê duyệt.",
+    "processTakesMinutes": "Quá trình này thường mất 3–5 phút.",
+    "noteWaitOrClose": "Lưu ý: Bạn có thể đợi tại đây để xem kết quả, hoặc đóng cửa sổ và kiểm tra kết quả phân tích sau trong Phân tích: Tín hiệu tín dụng",
+    "scanning": "Đang quét",
+    "retryUploadDocument": "Thử tải lên lại tài liệu",
+    "retryUploadDocumentDescription": "Bạn có chắc chắn muốn thử tải lên lại tài liệu này?"
+  },
+  "sso": {
+    "title": "Cấu hình Đăng nhập một lần (SSO)",
+    "subTitle": "Thiết lập tích hợp SSO để quản lý xác thực người dùng thông qua Nhà cung cấp danh tính (IdP) bên ngoài.",
+    "mustBeInstitution": "Bạn phải liên kết với tổ chức để cấu hình SSO.",
+    "enableSSO": "Bật xác thực SSO",
+    "enableSSODescription": "Cho phép người dùng xác thực bằng Đăng nhập một lần",
+    "protocol": "Giao thức",
+    "selectProtocol": "Chọn giao thức",
+    "selectProtocolHelper": "Chọn giao thức xác thực do Nhà cung cấp danh tính sử dụng",
+    "identityProviderConfig": "Cấu hình Nhà cung cấp danh tính",
+    "entityId": "Entity ID / Issuer URL",
+    "entityIdPlaceholder": "https://idp.example.com/entity-id",
+    "entityIdHelper": "Định danh duy nhất cho Nhà cung cấp danh tính",
+    "ssoUrl": "SSO URL / Login URL",
+    "ssoUrlPlaceholder": "https://idp.example.com/sso/login",
+    "ssoUrlHelper": "URL nơi gửi yêu cầu xác thực",
+    "x509Certificate": "Chứng chỉ X.509",
+    "x509Placeholder": "-----BEGIN CERTIFICATE-----",
+    "attributeMapping": "Ánh xạ thuộc tính",
+    "attributeMappingHelper": "Ánh xạ thuộc tính từ IdP sang trường người dùng trong ClearSight",
+    "allowedDomains": "Các miền cho phép (vd. @companyname.com)",
+    "allowedDomainsPlaceholder": "@example.com",
+    "add": "Thêm",
+    "serviceProviderInfo": "Thông tin Nhà cung cấp dịch vụ",
+    "serviceProviderInfoHelper": "Cung cấp thông tin này cho quản trị viên IdP:",
+    "spEntityId": "SP Entity ID",
+    "acsUrl": "ACS URL",
+    "connectionSuccessful": "Kết nối thành công",
+    "connectionSuccessfulDesc": "Cấu hình SSO hợp lệ và sẵn sàng sử dụng",
+    "saveConfiguration": "Lưu cấu hình",
+    "saving": "Đang lưu...",
+    "createSuccess": "Tạo cấu hình SSO thành công",
+    "updateSuccess": "Cập nhật cấu hình SSO thành công",
+    "institutionalIdRequired": "Cần có ID tổ chức",
+    "entityIdRequired": "Entity ID / Issuer URL là bắt buộc",
+    "ssoUrlRequired": "SSO URL / Login URL là bắt buộc",
+    "copiedToClipboard": "Đã sao chép {{label}} vào clipboard",
+    "clipboardNotAvailable": "Clipboard API không khả dụng",
+    "copyFailed": "Sao chép thất bại",
+    "saveFailed": "Lưu cấu hình SSO thất bại",
+    "urlInvalidProtocol": "URL phải dùng giao thức http:// hoặc https://",
+    "urlInvalid": "Vui lòng nhập URL hợp lệ (vd. https://idp.example.com/entity-id)",
+    "certificateEmpty": "Chứng chỉ X.509 không được để trống",
+    "certificateStart": "Chứng chỉ phải bắt đầu bằng -----BEGIN CERTIFICATE-----",
+    "certificateEnd": "Chứng chỉ phải kết thúc bằng -----END CERTIFICATE-----"
+  },
+  "analysis": {
+    "pageSubTitle": "Xem xét tín hiệu, diễn giải tài liệu và xuất kết quả",
+    "viewDetails": "Xem chi tiết",
+    "bankStatementSubTitle": "Phân tích dòng tiền, mẫu giao dịch và rủi ro ngân hàng từ sao kê này",
+    "financialStatementSubTitle": "Phân tích tài chính chi tiết dựa trên dữ liệu báo cáo đã trích xuất và xác thực",
+    "fraudDetectionSubTitle": "Phân tích giao dịch đáng ngờ và mẫu gian lận",
+    "combinedAnalysisSubTitle": "Đánh giá tổng thể trên dữ liệu tài chính và ngân hàng",
+    "searchByVendorName": "Tìm theo tên nhà cung cấp",
+    "noResultsSearch": "Không tìm thấy kết quả cho tìm kiếm của bạn",
+    "noResultsCompleteReview": "Hoàn thành bước Xem xét và phê duyệt tài liệu để tạo phân tích",
+    "consolidatedAnalysis": "Phân tích tổng hợp",
+    "confirmCreateConsolidated": "Xác nhận tạo Phân tích tổng hợp",
+    "confirmDeleteFinancialAnalysis": "Xác nhận xóa Phân tích Báo cáo tài chính",
+    "confirmCreateConsolidatedDesc": "Bạn sắp tạo phân tích tổng hợp cho tất cả phân tích tài chính đã phê duyệt của nhà cung cấp này. Hành động này không thể hoàn tác.",
+    "confirmDeleteFinancialAnalysisDesc": "Bạn sắp xóa phân tích báo cáo tài chính. Hành động này không thể hoàn tác.",
+    "confirmDeleteConsolidatedAnalysis": "Xác nhận xóa Phân tích tổng hợp",
+    "confirmDeleteConsolidatedAnalysisDesc": "Bạn sắp xóa phân tích tổng hợp. Hành động này không thể hoàn tác.",
+    "consolidatedAnalysisNoData": "Nhấn Phân tích tổng hợp để tạo chế độ xem tổng hợp của tất cả phân tích tài chính đã phê duyệt cho nhà cung cấp này.",
+    "noFinancialStatementAnalysis": "Không tìm thấy phân tích báo cáo tài chính",
+    "noBankStatementAnalysis": "Không tìm thấy phân tích sao kê ngân hàng",
+    "financialStatementAnalysis": "Phân tích Báo cáo tài chính",
+    "bankStatementAnalysis": "Phân tích Sao kê ngân hàng",
+    "combinedAnalysisLabel": "Phân tích tổng hợp",
+    "fraudDetectionLabel": "Phát hiện gian lận",
+    "financialStatementExtraction": "Trích xuất Báo cáo tài chính",
+    "bankStatementExtraction": "Trích xuất Sao kê ngân hàng",
+    "summaryLabel": "Tóm tắt",
+    "noteSaveSuccess": "Đã lưu ghi chú thành công",
+    "noteSaveError": "Lưu ghi chú thất bại",
+    "addNotePlaceholder": "Thêm ghi chú",
+    "editNote": "Chỉnh sửa ghi chú",
+    "note": "Ghi chú",
+    "addNoteLabel": "Thêm ghi chú",
+    "confirmCreateCombinedAnalysis": "Xác nhận tạo Phân tích tổng hợp",
+    "confirmCreateCombinedAnalysisDesc": "Bạn sắp tạo phân tích tổng hợp cho tất cả phân tích tài chính đã phê duyệt của nhà cung cấp này. Hành động này không thể hoàn tác.",
+    "confirmDeleteCombinedAnalysis": "Xác nhận xóa Phân tích tổng hợp",
+    "confirmDeleteCombinedAnalysisDesc": "Bạn sắp xóa phân tích tổng hợp. Hành động này không thể hoàn tác.",
+    "create": "Tạo",
+    "combinedAnalysisRequiresBoth": "Cần cả Phân tích Tài chính và Ngân hàng",
+    "combinedAnalysisRequiresAtLeastTwoDocuments": "Cần ít nhất 2 tài liệu",
+    "combinedAnalysisNoDataMessage": "Phân tích tổng hợp chỉ được tạo khi có cả Phân tích Báo cáo tài chính và Phân tích Sao kê ngân hàng cho công ty này",
+    "generating": "Đang tạo...",
+    "statusApproved": "Đã phê duyệt",
+    "statusRejected": "Từ chối",
+    "headerFyPeriod": "Năm tài chính/Kỳ",
+    "headerOverallResult": "Kết quả tổng thể",
+    "headerCreatedBy": "Tạo bởi",
+    "headerCreatedDate": "Ngày tạo",
+    "headerAction": "Hành động"
+  },
+  "errors": {
+    "fullName": {
+      "required": "Tên đầy đủ là bắt buộc"
+    },
+    "generic": "Đã xảy ra lỗi",
+    "serverConnectionFailed": "Không thể kết nối đến máy chủ",
+    "maxLength": "Chuỗi không được vượt quá {max} ký tự",
+    "email": {
+      "containsSpace": "Email không được chứa khoảng trắng",
+      "invalid": "Email không hợp lệ",
+      "required": "Email là bắt buộc"
+    },
+    "phone": {
+      "invalid": "Số điện thoại không hợp lệ",
+      "required": "Số điện thoại là bắt buộc"
+    },
+    "field": {
+      "required": "Trường này là bắt buộc",
+      "invalid": "Giá trị không hợp lệ"
+    },
+    "fields": {
+      "name": "Tên",
+      "short_name": "Tên ngắn",
+      "address": "Địa chỉ",
+      "city": "Thành phố",
+      "postal_code": "Mã bưu điện",
+      "country": "Quốc gia"
+    },
+    "fillRequiredFields": "Vui lòng điền đầy đủ thông tin bắt buộc",
+    "formNotValid": "Form không hợp lệ, vui lòng kiểm tra lại các trường và thử lại."
+  }
+}
